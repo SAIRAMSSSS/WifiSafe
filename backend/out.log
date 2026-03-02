@@ -1,0 +1,32 @@
+07:19:12 [[33mwarn[39m]: [Email] nodemailer not installed - emails will be logged only
+07:19:12 [[32minfo[39m]: Database initialization complete
+07:19:12 [[32minfo[39m]: Database initialized
+07:19:12 [[32minfo[39m]: Starting initial network scan...
+07:19:12 [[32minfo[39m]: [InitialScan] Starting real network discovery...
+07:19:12 [[32minfo[39m]: [InitialScan] Cleared old data
+07:19:12 [[32minfo[39m]: WebSocket server initialized
+07:19:12 [[32minfo[39m]: WebSocket server initialized
+07:19:12 [[32minfo[39m]: Scheduled tasks started
+07:19:12 [[32minfo[39m]: Scheduled tasks started
+07:19:12 [[32minfo[39m]: Black Codex Backend (HTTP) running on port 3001
+07:19:12 [[32minfo[39m]: Environment: development
+07:19:12 [[33mwarn[39m]: SSL cert/key not provided — running without TLS
+07:19:12 [[32minfo[39m]: ::ffff:127.0.0.1 - - [02/Mar/2026:01:49:12 +0000] "GET /api/alerts HTTP/1.1" 200 61 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+07:19:12 [[32minfo[39m]: ARP scan found 12 devices
+07:19:12 [[32minfo[39m]: [InitialScan] Discovered 1 devices via ARP
+07:19:12 [[32minfo[39m]: [InitialScan] Added device: 192.168.0.1 (Unknown Vendor)
+07:19:12 [[32minfo[39m]: [InitialScan] Complete: 1 real devices added to database
+07:19:12 [[32minfo[39m]: Initial scan complete: Found 1 real devices
+07:19:21 [[32minfo[39m]: ::ffff:127.0.0.1 - - [02/Mar/2026:01:49:21 +0000] "GET /api/alerts HTTP/1.1" 200 450 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+07:19:22 [[32minfo[39m]: Performing startup threat feed update...
+07:19:22 [[32minfo[39m]: [ThreatFeed] Fetching recent threats from URLhaus...
+07:19:23 [[31merror[39m]: [ThreatFeed] Failed to fetch threats: API Error: 401
+07:19:23 [[32minfo[39m]: [ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...
+07:19:23 [[32minfo[39m]: [ThreatFeed] Retrieved 1529 CISA records
+07:19:23 [[32minfo[39m]: Database saved to disk
+07:19:23 [[32minfo[39m]: [ThreatFeed] Added 0 CISA exploits
+07:19:31 [[32minfo[39m]: ::1 - - [02/Mar/2026:01:49:31 +0000] "GET /api/alerts HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+07:19:41 [[32minfo[39m]: ::1 - - [02/Mar/2026:01:49:41 +0000] "GET /api/alerts HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+07:19:51 [[32minfo[39m]: ::1 - - [02/Mar/2026:01:49:51 +0000] "GET /api/alerts HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+07:20:00 [[32minfo[39m]: [RefreshDevices] Starting network refresh...
+07:20:00 [[32minfo[39m]: ARP scan found 12 devices
