@@ -1,0 +1,78 @@
+﻿
+============================================================
+TESTING: 192.168.0.1
+============================================================
+Summary: ## ≡ƒÄ» OVERALL RISK ASSESSMENT
+The device shows evidence of security weaknesses that require attention.
+
+## ≡ƒöì DETAILED THREAT ANALYSIS
+- **Service Exposure**: Multiple open ports detected which may increase the attack surface.
+Prediction: 
+
+[SYSTEM NOTE: This is a simulated analysis because the configured AI provider (gemini) was unreachable.
+Threats: LOW: Unknown Device Vendor
+Recommendations: 2
+
+  [1] HIGH ΓÇö Patch 1 CVE vulnerability on 192.168.0.1
+      Details: Confirmed CVEs: Unknown Device Vendor. 0 critical, 0 high severity. These can allow remote code execution or data theft 
+      Steps (8):
+        1. Search for the official firmware page: https://www.google.com/search?q=Unknown%20Vendor%20security%20firmware%20update
+        2. Look for a firmware version that patches: Unknown Device Vendor.
+        3. Download the firmware file (usually .bin, .img, or .zip) to your computer.
+        4. Open a browser and go to http://192.168.0.1 ΓÇö log in with your admin credentials. (Default credentials are often on a label on the device itself.)
+        5. Navigate to Administration ΓåÆ Firmware / Software Update ΓåÆ upload the downloaded file.
+        6. Wait for the device to reboot automatically (takes 2ΓÇô5 minutes). Do NOT power off during this.
+        7. After reboot, go back to http://192.168.0.1 and verify the new firmware version is displayed.
+        8. Return to the AI Analyst page and re-analyze 192.168.0.1 to confirm the CVEs are resolved.
+
+  [2] CRITICAL ΓÇö Change weak credentials on 192.168.0.1 (unknown (192.168.0.1))
+      Details: Device 192.168.0.1 (MAC: 24:2F:D0:BE:B5:9C, Vendor: Unknown Vendor) is using weak or default credentials ΓÇö the #1 cause 
+      Steps (8):
+        1. Open a browser and navigate to http://192.168.0.1 (or check the device label for port variants like :8080 or :8443).
+        2. Log in with the current credentials. If using defaults, check the device label ΓÇö common defaults: admin/admin, admin/password, root/root.
+        3. Go to Administration ΓåÆ Security ΓåÆ Change Password (may also be under Account, Users, or System Settings).
+        4. Set a new password with 12+ characters using uppercase, lowercase, numbers and symbols. Suggested format: 19216801-Secure@2026
+        5. If there is a separate admin username field, change it from "admin" to a custom name.
+        6. Disable remote management (WAN-side access) if you don't manage this device externally.
+        7. Click Save, then log out, clear your browser cache, and log back in with the new credentials to confirm.
+        8. Record the new credentials in a password manager. Device is at 192.168.0.1 (MAC: 24:2F:D0:BE:B5:9C).
+
+============================================================
+TESTING: 192.168.0.232
+============================================================
+Summary: ## ≡ƒÄ» OVERALL RISK ASSESSMENT
+The device shows evidence of security weaknesses that require attention.
+
+## ≡ƒöì DETAILED THREAT ANALYSIS
+- **Service Exposure**: Multiple open ports detected which may increase the attack surface.
+Prediction: 
+
+[SYSTEM NOTE: This is a simulated analysis because the configured AI provider (gemini) was unreachable.
+Threats: LOW: Unknown Device Vendor
+Recommendations: 2
+
+  [1] HIGH ΓÇö Patch 1 CVE vulnerability on 192.168.0.232
+      Details: Confirmed CVEs: Unknown Device Vendor. 0 critical, 0 high severity. These can allow remote code execution or data theft 
+      Steps (8):
+        1. Search for the official firmware page: https://www.google.com/search?q=Unknown%20Vendor%20security%20firmware%20update
+        2. Look for a firmware version that patches: Unknown Device Vendor.
+        3. Download the firmware file (usually .bin, .img, or .zip) to your computer.
+        4. Open a browser and go to http://192.168.0.232 ΓÇö log in with your admin credentials. (Default credentials are often on a label on the device itself.)
+        5. Navigate to Administration ΓåÆ Firmware / Software Update ΓåÆ upload the downloaded file.
+        6. Wait for the device to reboot automatically (takes 2ΓÇô5 minutes). Do NOT power off during this.
+        7. After reboot, go back to http://192.168.0.232 and verify the new firmware version is displayed.
+        8. Return to the AI Analyst page and re-analyze 192.168.0.232 to confirm the CVEs are resolved.
+
+  [2] HIGH ΓÇö Identify and verify unknown device at 192.168.0.232 (MAC: 96:A4:53:5B:F9:B0)
+      Details: IP 192.168.0.232 (MAC: 96:A4:53:5B:F9:B0) has no recognized vendor or device type. This could be a rogue device, shadow 
+      Steps (8):
+        1. On Windows: Open Command Prompt ΓåÆ run: arp -a | findstr "192.168.0.232" to confirm the MAC address for this IP.
+        2. Look up MAC prefix 96:A4:53 at https://maclookup.app to identify the device manufacturer.
+        3. Check your router's client list (usually at http://192.168.0.1 ΓåÆ Status ΓåÆ DHCP Clients) for the hostname registered to 192.168.0.232.
+        4. Physically walk the network and look for a device labeled with 192.168.0.232 or showing recent network activity.
+        5. If the device is authorized: open Device Inventory in this dashboard, find 192.168.0.232, and fill in the Name, Type, and Vendor fields.
+        6. If the device is NOT authorized or unrecognized: go to Quarantine Kill Switch in this dashboard and isolate 192.168.0.232 immediately.
+        7. After identifying the device, document it in your asset register: owner, purpose, date verified, MAC 96:A4:53:5B:F9:B0.
+        8. Enable new-device detection alerts in this dashboard so you are notified the instant another unknown device joins the network.
+
+Γ£à Done ΓÇö compare steps above to verify they are unique per device.
