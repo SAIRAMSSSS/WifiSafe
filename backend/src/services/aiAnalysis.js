@@ -220,24 +220,149 @@ async function analyzeDevice(ip) {
     }
   });
 
-  // Base Recommendations
+  // Base Recommendations with detailed resolution steps
   if (vulns.length > 0) {
+    const criticalVulns = vulns.filter(v => v.severity === 'critical');
+    const highVulns = vulns.filter(v => v.severity === 'high');
     analysis.recommendations.push({
-      priority: 'high',
+      priority: criticalVulns.length > 0 ? 'critical' : 'high',
       action: 'Patch identified vulnerabilities',
-      details: `Discovered ${vulns.length} CVEs. Visit vendor site for updates.`,
-      howTo: 'Download and apply latest firmware from manufacturer.'
+      details: `Discovered ${vulns.length} CVE(s): ${criticalVulns.length} critical, ${highVulns.length} high. Immediate patching required.`,
+      howTo: 'Download and apply latest firmware from the manufacturer support page.',
+      steps: [
+        'Open your browser and navigate to the device manufacturer\'s official support/downloads website.',
+        `Search for "${device.device_vendor || device.manufacturer || 'your device model'}" firmware updates.`,
+        'Download the latest stable firmware version released after the CVE publication date.',
+        'Log into the device admin panel (check the device label or manual for default URL, e.g., 192.168.0.1).',
+        'Go to Administration > Firmware / Software Update and upload the downloaded file.',
+        'Wait for the device to reboot and verify the new firmware version is applied.',
+        'After update, re-run a vulnerability scan to confirm the CVEs are resolved.'
+      ]
     });
   }
 
   if (device.has_weak_credentials) {
     analysis.recommendations.push({
       priority: 'critical',
-      action: 'Change default credentials',
-      details: 'Device is using weak or default login information.',
-      howTo: 'Access the admin panel and update to a strong, unique password.'
+      action: 'Change default / weak credentials',
+      details: 'Device is using weak or default login credentials — a primary attack vector for network compromise.',
+      howTo: 'Access the device admin panel and update to a strong, unique password immediately.',
+      steps: [
+        `Open a browser and navigate to http://${device.ip} or https://${device.ip} (check device label for the correct port).`,
+        'Log in using the current credentials (check device documentation for defaults if unknown).',
+        'Go to Administration > Security > Change Password (exact menu varies by device).',
+        'Set a new password: minimum 12 characters, include uppercase, lowercase, numbers, and symbols (e.g., Wf!k9$mX@2rT).',
+        'Disable remote management or WAN-side admin access if not required.',
+        'Enable two-factor authentication if the device firmware supports it.',
+        'Save changes and log out — confirm you can log back in with the new password.',
+        'Update your password manager or document the new credentials securely.'
+      ]
     });
   }
+
+  // Recommendation for unidentified/unknown device
+  const isUnknown = !device.device_vendor || device.device_vendor === 'Unknown' || !device.device_type || device.device_type === 'unknown';
+  if (isUnknown) {
+    analysis.recommendations.push({
+      priority: 'high',
+      action: 'Identify and document this unknown device',
+      details: 'This device has no known vendor or type — it may be a rogue asset, shadow IT, or a misconfigured device. Unknown assets are a major blind spot.',
+      howTo: 'Physically trace the device using its IP and MAC address, then register it in your asset inventory.',
+      steps: [
+        `Open a command prompt or terminal and run: arp -a | findstr "${device.ip}" to confirm the MAC address.`,
+        `The MAC address prefix (first 6 characters) identifies the manufacturer — look it up at https://maclookup.app`,
+        'Physically locate the device by checking switch port assignments or using network management tools.',
+        'If the device is known and authorized: update its name and type in the Device Inventory page of this dashboard.',
+        'If the device is unknown/unauthorized: immediately isolate it using the Quarantine Kill Switch feature in this dashboard.',
+        'Investigate what services the device is running by reviewing the Open Ports section above.',
+        'Document the device in your network asset register with owner, purpose, and last review date.',
+        'Set up alerts in this dashboard to notify you if a new unknown device appears on the network again.'
+      ]
+    });
+  }
+
+  // Recommendations for risky ports
+  const criticalPorts = analysis.portAnalysis.filter(p => p.risk === 'critical' || p.risk === 'high');
+  if (criticalPorts.length > 0) {
+    criticalPorts.slice(0, 3).forEach(p => {
+      const portSteps = {
+        23: [ // Telnet
+          'Log into the device admin panel.',
+          'Navigate to Services or Administration > Remote Access.',
+          'Disable Telnet service — it transmits data in plaintext.',
+          'Enable SSH instead if remote access is required.',
+          'Verify Telnet is closed by re-running a port scan.'
+        ],
+        21: [ // FTP
+          'Log into the device admin panel.',
+          'Navigate to Services > FTP and disable the FTP server.',
+          'Use SFTP or SCP for secure file transfers instead.',
+          'If FTP is required, restrict it to specific IP addresses only.'
+        ],
+        3389: [ // RDP
+          'Open Windows Settings > System > Remote Desktop.',
+          'If RDP is not needed, toggle "Enable Remote Desktop" to OFF.',
+          'If RDP is needed: restrict access using Windows Firewall to allow only specific IPs.',
+          'Ensure Network Level Authentication (NLA) is enabled.',
+          'Use a VPN for remote access instead of exposing RDP directly.'
+        ],
+        7547: [ // TR-069
+          'Log into your router/modem admin panel.',
+          'Navigate to Administration or Management > Remote Management.',
+          'Disable TR-069/CWMP if not required by your ISP.',
+          'Contact your ISP to confirm if this port is needed for remote provisioning.'
+        ]
+      };
+      analysis.recommendations.push({
+        priority: p.risk === 'critical' ? 'critical' : 'high',
+        action: `Secure or close port ${p.port} (${p.service})`,
+        details: p.threat || `Port ${p.port} exposes the ${p.service} service which can be exploited if not properly secured.`,
+        howTo: `Disable the ${p.service} service or restrict access to trusted IPs only.`,
+        steps: portSteps[p.port] || [
+          `Log into the device admin panel at http://${device.ip}.`,
+          `Navigate to Services or Security settings and locate the ${p.service} service (port ${p.port}).`,
+          'Disable the service if it is not required for normal operation.',
+          `If required, configure a firewall rule to allow port ${p.port} only from trusted IP addresses.`,
+          'Re-run the AI analyst scan to verify the port is no longer exposed.'
+        ]
+      });
+    });
+  }
+
+  // Misconfigurations
+  if (misconfigs.length > 0) {
+    analysis.recommendations.push({
+      priority: 'medium',
+      action: 'Fix security misconfigurations',
+      details: `${misconfigs.length} misconfiguration(s) found: ${misconfigs.map(m => m.title).join(', ')}.`,
+      howTo: 'Review and correct each misconfiguration through the device admin interface.',
+      steps: [
+        `Log into the device admin panel at http://${device.ip}.`,
+        ...misconfigs.slice(0, 3).map((m, i) => `Step ${i + 2}: Fix "${m.title}" — ${m.recommendation || m.description || 'Check device manual'}.`),
+        'Save all changes and reboot the device if prompted.',
+        'Run a configuration audit again to verify all issues are resolved.'
+      ]
+    });
+  }
+
+  // General hardening recommendation
+  if (analysis.recommendations.length === 0) {
+    analysis.recommendations.push({
+      priority: 'low',
+      action: 'Apply general security hardening',
+      details: 'No critical issues detected. Apply preventive hardening to maintain security posture.',
+      howTo: 'Follow device-specific hardening guides from the manufacturer.',
+      steps: [
+        'Ensure the device firmware is up to date — check the manufacturer website monthly.',
+        'Disable all unused services and features in the admin panel.',
+        'Enable logging and monitoring if supported — forward logs to a central system.',
+        'Change the default admin username and set a strong password if not already done.',
+        'Enable automatic security updates if the device supports it.',
+        'Periodically re-run the AI analyst scan to detect new issues.'
+      ]
+    });
+  }
+
 
   // 2. Enhance with AI if available
   const manufacturer = device.device_vendor || device.manufacturer || 'Unknown';

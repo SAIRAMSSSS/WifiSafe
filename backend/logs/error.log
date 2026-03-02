@@ -94,3 +94,12 @@
 {"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:07:32"}
 {"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:10:14"}
 {"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:11:02"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:13:29"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:22:31"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 18.439351403s.","timestamp":"01:29:42"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:30:11"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:30:22"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:31:28"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:31:42"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:32:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:32:20"}

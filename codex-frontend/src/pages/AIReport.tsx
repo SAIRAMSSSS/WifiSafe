@@ -35,6 +35,7 @@ interface Recommendation {
   action: string;
   details: string;
   howTo?: string;
+  steps?: string[];
 }
 
 interface RealTimeFindings {
@@ -445,9 +446,27 @@ const AIReport = () => {
                       </div>
                       <p className="text-sm text-muted-foreground mb-2">{rec.details}</p>
                       {rec.howTo && (
-                        <div className="text-xs text-accent/80 bg-accent/5 px-3 py-2 rounded flex items-start gap-2">
+                        <div className="text-xs text-accent/80 bg-accent/5 px-3 py-2 rounded flex items-start gap-2 mb-3">
                           <Wifi className="w-3 h-3 mt-0.5 flex-shrink-0" />
-                          <span><strong>How to:</strong> {rec.howTo}</span>
+                          <span><strong>Quick tip:</strong> {rec.howTo}</span>
+                        </div>
+                      )}
+                      {rec.steps && rec.steps.length > 0 && (
+                        <div className="mt-3">
+                          <p className="text-xs font-semibold uppercase tracking-wider text-success mb-2 flex items-center gap-1">
+                            <Shield className="w-3 h-3" />
+                            Step-by-Step Resolution
+                          </p>
+                          <ol className="space-y-1.5">
+                            {rec.steps.map((step, i) => (
+                              <li key={i} className="flex items-start gap-2 text-xs text-muted-foreground">
+                                <span className="flex-shrink-0 w-5 h-5 rounded-full bg-success/20 text-success text-[10px] font-bold flex items-center justify-center mt-0.5">
+                                  {i + 1}
+                                </span>
+                                <span className="leading-relaxed">{step}</span>
+                              </li>
+                            ))}
+                          </ol>
                         </div>
                       )}
                     </div>
