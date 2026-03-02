@@ -103,3 +103,25 @@
 {"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:31:42"}
 {"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:32:05"}
 {"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:32:20"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:42:46"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:42:46"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:43:08"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:43:08"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:48:21"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:48:32"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:49:16"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:49:25"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:49:36"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:50:31"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:40"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:53:47"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:53:47"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:54:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:54:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:56:44"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:56:56"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:11"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:19"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:28"}

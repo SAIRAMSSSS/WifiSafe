@@ -10973,3 +10973,1054 @@
 {"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:35"}
 {"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:37"}
 {"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:39"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:06:40 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:36:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:41"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:43"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:45"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:47"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:49"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:06:50 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:36:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:51"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:53"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:55"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:57"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:36:59"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:07:00 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:37:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:37:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:37:00"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:37:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:37:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:05"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:07"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:07:10 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:37:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:11"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:13"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:15"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:17"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:19"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:37:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:21"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:23"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:25"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:27"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:07:31 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:37:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:07:31 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:37:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:07:31 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:37:31"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:31"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:33"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:35"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:37"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:39"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:41"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:43"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:45"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:47"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:49"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:51"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:37:58"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:38:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:38:00"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:38:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:38:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:08:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:38:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:52"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:38:58"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:39:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:39:00"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:39:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:39:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:09:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:39:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:09:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:39:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:09:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:39:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:09:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:39:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:52"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:39:58"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:40:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:40:00"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:40:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:40:02"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:10:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:40:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:10:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:40:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:10:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:40:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:10:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:40:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:53"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:55"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:57"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:40:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:41:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:41:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:41:01"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:41:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:11:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:41:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:11:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:41:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:11:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:41:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:11:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:41:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:05"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:07"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:09"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:11"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:13"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:15"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:17"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:41:17"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:19"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:21"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:23"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:25"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:27"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:29"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:31"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:33"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:35"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:37"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:39"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:41"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:43"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:45"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:47"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:49"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:51"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:53"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:55"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:57"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:41:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:42:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:42:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:01"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:42:02"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:42:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:12:03 +0000] \"GET /api/alerts HTTP/1.1\" 200 14588 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:42:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:12:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:42:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:12:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:42:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:12:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:42:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:05"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:07"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:09"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:11"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:13"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:15"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:17"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:19"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:42:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:21"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:23"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:25"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:27"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:29"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:31"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:42:34"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:42:34"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:42:34"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:42:34"}
+{"level":"info","message":"Database initialized","timestamp":"01:42:34"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:42:34"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:42:34"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:42:34"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:35"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:35"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:35"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:35"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:35"}
+{"level":"info","message":"Database initialized","timestamp":"01:42:34"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:42:34"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:42:34"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:42:34"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:35"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:35"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:35"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:35"}
+{"level":"info","message":"Black Codex Backend (HTTP) running on port 3001","timestamp":"01:42:35"}
+{"level":"info","message":"Environment: development","timestamp":"01:42:35"}
+{"level":"warn","message":"SSL cert/key not provided — running without TLS","timestamp":"01:42:35"}
+{"level":"info","message":"WebSocket client connected: 35687785-4c33-49bf-8217-d93aac0bcc5f","timestamp":"01:42:35"}
+{"level":"info","message":"WebSocket client 35687785-4c33-49bf-8217-d93aac0bcc5f authenticated in dev mode","timestamp":"01:42:35"}
+{"level":"info","message":"Client 35687785-4c33-49bf-8217-d93aac0bcc5f subscribed to devices","timestamp":"01:42:35"}
+{"level":"info","message":"Client 35687785-4c33-49bf-8217-d93aac0bcc5f subscribed to alerts","timestamp":"01:42:35"}
+{"level":"info","message":"Client 35687785-4c33-49bf-8217-d93aac0bcc5f subscribed to scan","timestamp":"01:42:35"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:42:35"}
+{"level":"info","message":"ARP scan found 54 devices","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Discovered 35 devices via ARP","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.198 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Complete: 35 real devices added to database","timestamp":"01:42:36"}
+{"level":"info","message":"Initial scan complete: Found 35 real devices","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Discovered 35 devices via ARP","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:42:35"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.198 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:42:36"}
+{"level":"info","message":"[InitialScan] Complete: 35 real devices added to database","timestamp":"01:42:36"}
+{"level":"info","message":"Initial scan complete: Found 35 real devices","timestamp":"01:42:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:37"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:39"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:41"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:43"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:42:45"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:42:45"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:42:45"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:42:45"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:45"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:42:46"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:42:46"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:42:46"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:42:46"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:42:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:47"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:49"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:51"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:53"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:55"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:42:56"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:42:56"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:42:56"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:42:56"}
+{"level":"info","message":"Database initialized","timestamp":"01:42:56"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:42:56"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:42:56"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:42:56"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:57"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:57"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:57"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:57"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:57"}
+{"level":"info","message":"Database initialized","timestamp":"01:42:56"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:42:56"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:42:56"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:42:56"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:57"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:42:57"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:57"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:42:57"}
+{"level":"info","message":"Black Codex Backend (HTTP) running on port 3001","timestamp":"01:42:57"}
+{"level":"info","message":"Environment: development","timestamp":"01:42:57"}
+{"level":"warn","message":"SSL cert/key not provided — running without TLS","timestamp":"01:42:57"}
+{"level":"info","message":"WebSocket client connected: 8249c462-ec21-4486-9fbd-9caadef81d79","timestamp":"01:42:57"}
+{"level":"info","message":"WebSocket client 8249c462-ec21-4486-9fbd-9caadef81d79 authenticated in dev mode","timestamp":"01:42:57"}
+{"level":"info","message":"Client 8249c462-ec21-4486-9fbd-9caadef81d79 subscribed to devices","timestamp":"01:42:57"}
+{"level":"info","message":"Client 8249c462-ec21-4486-9fbd-9caadef81d79 subscribed to alerts","timestamp":"01:42:57"}
+{"level":"info","message":"Client 8249c462-ec21-4486-9fbd-9caadef81d79 subscribed to scan","timestamp":"01:42:57"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:42:58"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Discovered 36 devices via ARP","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.110 (Raspberry Pi Foundation)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.198 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Complete: 36 real devices added to database","timestamp":"01:42:58"}
+{"level":"info","message":"Initial scan complete: Found 36 real devices","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Discovered 36 devices via ARP","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.110 (Raspberry Pi Foundation)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.198 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:42:58"}
+{"level":"info","message":"[InitialScan] Complete: 36 real devices added to database","timestamp":"01:42:58"}
+{"level":"info","message":"Initial scan complete: Found 36 real devices","timestamp":"01:42:58"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:42:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:43:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:43:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:01"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:43:02"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:43:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:13:03 +0000] \"GET /api/alerts HTTP/1.1\" 200 14250 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:43:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:13:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:43:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:13:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:43:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:13:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:43:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:05"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:43:07"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:43:07"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:43:07"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:43:07"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:07"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:43:08"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:43:08"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:43:08"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:43:08"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:43:08"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:43:08"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:43:08"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:43:09"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:43:09"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:43:09"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:09"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:11"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:13"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:15"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:17"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:19"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:21"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:23"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:25"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:27"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:29"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:31"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:33"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:35"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:37"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:39"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:41"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:43"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:45"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:47"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:49"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:51"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:53"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:55"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:57"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:43:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:44:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:44:00"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:44:01"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:44:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:14:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:44:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:14:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:44:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:14:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:44:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:14:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:44:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:52"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:44:58"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:45:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:45:00"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:45:01"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:45:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:15:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:45:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:15:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:45:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:15:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:45:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:15:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:45:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:52"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:45:58"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:46:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:46:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:00"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:46:01"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:46:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:16:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:46:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:16:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:46:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:16:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:46:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:16:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:46:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:14"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:16"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:18"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:20"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:22"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:24"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:26"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:28"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:30"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:32"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:34"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:36"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:38"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:40"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:42"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:44"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:46"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:48"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:50"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:52"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:54"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:56"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:46:58"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:47:00"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:00"}
+{"level":"info","message":"ARP scan found 55 devices","timestamp":"01:47:01"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:17:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:47:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:17:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:47:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:17:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:47:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:17:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:47:03"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:04"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:06"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:08"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:10"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:12"}
+{"level":"warn","message":"Port 3001 is in use, retrying in 2 seconds...","timestamp":"01:47:14"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"01:47:16"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:47:57"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:48:00"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:48:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:03 +0000] \"GET /api/alerts HTTP/1.1\" 200 14630 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:48:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:48:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:48:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:48:03"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:48:20"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:48:21"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:48:21"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:21 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2121 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:48:21"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:48:31"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:48:32"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:48:32"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:18:32 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2135 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:48:32"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"01:48:59"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:49:05"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:49:05"}
+{"level":"info","message":"Database initialized","timestamp":"01:49:05"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:49:05"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:49:05"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:49:05"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:49:05"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:49:05"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:49:05"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:49:05"}
+{"level":"info","message":"Black Codex Backend (HTTP) running on port 3001","timestamp":"01:49:05"}
+{"level":"info","message":"Environment: development","timestamp":"01:49:05"}
+{"level":"warn","message":"SSL cert/key not provided — running without TLS","timestamp":"01:49:05"}
+{"level":"info","message":"WebSocket client connected: 6f007f17-18fb-4dba-95c9-e51952ff23a2","timestamp":"01:49:06"}
+{"level":"info","message":"WebSocket client 6f007f17-18fb-4dba-95c9-e51952ff23a2 authenticated in dev mode","timestamp":"01:49:06"}
+{"level":"info","message":"Client 6f007f17-18fb-4dba-95c9-e51952ff23a2 subscribed to devices","timestamp":"01:49:06"}
+{"level":"info","message":"Client 6f007f17-18fb-4dba-95c9-e51952ff23a2 subscribed to alerts","timestamp":"01:49:06"}
+{"level":"info","message":"Client 6f007f17-18fb-4dba-95c9-e51952ff23a2 subscribed to scan","timestamp":"01:49:06"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Discovered 37 devices via ARP","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.110 (Raspberry Pi Foundation)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.191 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.198 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:49:06"}
+{"level":"info","message":"[InitialScan] Complete: 37 real devices added to database","timestamp":"01:49:06"}
+{"level":"info","message":"Initial scan complete: Found 37 real devices","timestamp":"01:49:06"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:20:19:12 +0000] \"GET /api/alerts HTTP/1.1\" 200 14644 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:12"}
+{"level":"info","message":"WebSocket client disconnected: 6f007f17-18fb-4dba-95c9-e51952ff23a2","timestamp":"01:49:12"}
+{"level":"info","message":"WebSocket client connected: 4c92d8a3-8254-40dd-ab59-5c1665b26426","timestamp":"01:49:14"}
+{"level":"info","message":"WebSocket client 4c92d8a3-8254-40dd-ab59-5c1665b26426 authenticated in dev mode","timestamp":"01:49:14"}
+{"level":"info","message":"Client 4c92d8a3-8254-40dd-ab59-5c1665b26426 subscribed to devices","timestamp":"01:49:14"}
+{"level":"info","message":"Client 4c92d8a3-8254-40dd-ab59-5c1665b26426 subscribed to alerts","timestamp":"01:49:14"}
+{"level":"info","message":"Client 4c92d8a3-8254-40dd-ab59-5c1665b26426 subscribed to scan","timestamp":"01:49:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:20:19:14 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:20:19:14 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:14 +0000] \"GET /api/devices HTTP/1.1\" 200 34154 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:14 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:14 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:15 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:15 +0000] \"GET /api/devices HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:15"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [02/Mar/2026:20:19:15 +0000] \"GET /api/quarantine HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:15 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:15"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:49:15"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:49:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:15 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:16 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 200 419 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:16"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:16 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:16"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:49:16"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:49:16"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:49:17"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:49:17"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:49:17"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:20 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:20 +0000] \"GET /api/scan/status HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:21 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:21"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:21 +0000] \"GET /api/devices HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:21"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:49:25"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:49:25"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:49:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:25 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2135 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:31 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:31"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:49:36"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:49:36"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:49:36"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:36 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2132 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:36"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:41 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:41"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:19:51 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:49:51"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:50:00"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:01 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:01"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:50:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:14 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:14 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:14 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:21 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:21"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:22 +0000] \"GET /api/health HTTP/1.1\" 200 129 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:50:22"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:50:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:31 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:31"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:50:31"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:50:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:31 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2132 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:41 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:41"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:51 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:51"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:59 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:59"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:20:59 +0000] \"GET /api/scan/status HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:50:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:51:00"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:51:01"}
+{"level":"info","message":"Starting full network scan on auto-detected network","timestamp":"01:51:02"}
+{"level":"info","message":"Auto-detected subnet: 192.168.0.0/24 on interface Wi-Fi","timestamp":"01:51:02"}
+{"level":"info","message":"Marked all existing devices as offline for fresh scan","timestamp":"01:51:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:02 +0000] \"POST /api/scan/start HTTP/1.1\" 200 121 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:02"}
+{"level":"info","message":"ARP scan found 56 devices","timestamp":"01:51:02"}
+{"level":"info","message":"Ping sweeping 217 IPs not in ARP cache...","timestamp":"01:51:02"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:14 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:14 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:14 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:14"}
+{"level":"info","message":"Found 61 potential devices","timestamp":"01:51:15"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.1: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.1\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:17"}
+{"level":"info","message":"[Classification] 192.168.0.1: Unknown, Role: Main, IoT Type: N/A","timestamp":"01:51:17"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.110: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.110\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:18"}
+{"level":"debug","message":"Vendor \"Raspberry Pi Foundation\" matched IoT pattern","timestamp":"01:51:18"}
+{"level":"info","message":"[Classification] 192.168.0.110: IoT, Role: Secondary, IoT Type: Raspberry Pi","timestamp":"01:51:18"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.176: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.176\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:18"}
+{"level":"info","message":"[Classification] 192.168.0.176: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:18"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.134: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.134\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:18"}
+{"level":"info","message":"[Classification] 192.168.0.134: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:18"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.138: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.138\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:18"}
+{"level":"info","message":"[Classification] 192.168.0.138: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:18"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:19"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.180: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.180\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:20"}
+{"level":"info","message":"[Classification] 192.168.0.180: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:20"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.181: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.181\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:21"}
+{"level":"info","message":"[Classification] 192.168.0.181: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:21"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.232: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.232\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:22"}
+{"level":"info","message":"[Classification] 192.168.0.232: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:22"}
+{"level":"info","message":"Device 192.168.0.225 alive via port probe (ping failed)","timestamp":"01:51:23"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.225: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.225\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:24"}
+{"level":"info","message":"[Classification] 192.168.0.225: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:24"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.151: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.151\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:28"}
+{"level":"info","message":"[Classification] 192.168.0.151: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:28"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.143: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.143\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:28"}
+{"level":"info","message":"[Classification] 192.168.0.143: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:28"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.161: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.161\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:28"}
+{"level":"info","message":"[Classification] 192.168.0.161: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:28"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.197: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.197\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:28"}
+{"level":"info","message":"[Classification] 192.168.0.197: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:28"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:29 +0000] \"GET /api/alerts HTTP/1.1\" 200 16088 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:29"}
+{"level":"info","message":"Scan complete. Found 14 devices.","timestamp":"01:51:29"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:51:29"}
+{"level":"info","message":"[SECURITY SCORE] Calculating scores for 14 devices...","timestamp":"01:51:29"}
+{"level":"info","message":"[SECURITY SCORE] Network score calculated: 95/100","timestamp":"01:51:29"}
+{"level":"debug","message":"[Nmap] Lookup failed for 192.168.0.210: Command failed: nmap -sn -n -T4 --max-retries 1 192.168.0.210\n'nmap' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n","timestamp":"01:51:29"}
+{"level":"info","message":"[Classification] 192.168.0.210: Unknown, Role: Secondary, IoT Type: N/A","timestamp":"01:51:29"}
+{"level":"info","message":"Scan dd77c16e-2ff1-4d12-bff5-32aeafaa9670 completed successfully","timestamp":"01:51:31"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:31 +0000] \"GET /api/devices HTTP/1.1\" 200 39121 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:31"}
+{"level":"info","message":"[PDF REPORT] Read-only scan report generated for scan dd77c16e-2ff1-4d12-bff5-32aeafaa9670","timestamp":"01:51:33"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:33 +0000] \"GET /api/reports/scan-report HTTP/1.1\" 200 13585 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:33"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:21:51 +0000] \"GET /api/alerts HTTP/1.1\" 200 16449 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:51:51"}
+{"level":"info","message":"WebSocket client disconnected: 4c92d8a3-8254-40dd-ab59-5c1665b26426","timestamp":"01:51:53"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:52:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:52:00"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:52:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:05"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:52:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:05 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3354 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:52:05"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:52:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:05"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:52:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:05 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3311 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:52:05"}
+{"level":"info","message":"WebSocket client connected: d758d880-fdb9-4c22-93bd-576cd8526326","timestamp":"01:52:10"}
+{"level":"info","message":"WebSocket client d758d880-fdb9-4c22-93bd-576cd8526326 authenticated in dev mode","timestamp":"01:52:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:10 +0000] \"GET /api/alerts HTTP/1.1\" 200 17209 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:10 +0000] \"GET /api/devices HTTP/1.1\" 200 40016 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:10"}
+{"level":"info","message":"Client d758d880-fdb9-4c22-93bd-576cd8526326 subscribed to devices","timestamp":"01:52:10"}
+{"level":"info","message":"Client d758d880-fdb9-4c22-93bd-576cd8526326 subscribed to alerts","timestamp":"01:52:10"}
+{"level":"info","message":"Client d758d880-fdb9-4c22-93bd-576cd8526326 subscribed to scan","timestamp":"01:52:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:10 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:10 +0000] \"GET /api/quarantine HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/scan/security/score HTTP/1.1\" 200 7881 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 200 515 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:15 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:15 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:15 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:20 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:20 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:20 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:20 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:25 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:25 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:25 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:30 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:30"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:30 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:30"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:30 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:30"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:30 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:30"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:34 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:34"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:34 +0000] \"GET /api/scan/status HTTP/1.1\" 200 284 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:34"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:35 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:35 +0000] \"GET /api/devices HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:35"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:52:40"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:52:40"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:52:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:40 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3263 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:45 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:45"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:22:55 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:52:55"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:53:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:53:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:05 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/devices HTTP/1.1\" 200 40016 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/quarantine HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:10 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:10 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:10 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:14 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:14 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:14 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:19 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:19 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:24 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:24"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:24 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:24"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:24 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:24"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:29 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:29 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:29 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:29 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:35 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:35 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:35 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:40 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:40 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:40 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:40 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:40"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:45 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:45"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:45 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:45"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:45 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:45"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:53:47"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:53:47"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:53:47"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:47 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3354 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:53:47"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:53:47"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:53:47"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:53:47"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:47 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3311 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:53:47"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:50 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:50"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:50 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:50"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:50 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:50"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:50 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:50"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:55 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:55"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:55 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:55"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:23:55 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:53:55"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:00 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:00"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:00 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:00"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:00 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:00"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:00 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:54:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:54:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:05 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:05 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:05 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:05"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:54:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:54:05"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:54:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:05 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3354 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:54:05"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:54:05"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:54:05"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:54:05"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:54:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:05 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3311 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:54:05"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:10 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:10 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:10 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:10 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:10"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:11 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:11 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:15 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:15 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:15 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:15"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:20 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:20 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:20 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:20 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:20"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:25 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:25 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:25 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:54:25"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:24:54 +0000] \"GET /api/vulnerabilities?limit=5 HTTP/1.1\" 200 2701 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:54:54"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:55:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:55:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:03 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:03 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:11 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:25:11 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:55:11"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:56:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:56:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:03 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:03 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:11 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:11 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:11 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:35 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:35 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:35 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:35"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:35 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:35"}
+{"level":"info","message":"WebSocket client disconnected: d758d880-fdb9-4c22-93bd-576cd8526326","timestamp":"01:56:36"}
+{"level":"info","message":"WebSocket client connected: ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff","timestamp":"01:56:37"}
+{"level":"info","message":"WebSocket client ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff authenticated in dev mode","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"Client ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff subscribed to devices","timestamp":"01:56:37"}
+{"level":"info","message":"Client ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff subscribed to alerts","timestamp":"01:56:37"}
+{"level":"info","message":"Client ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff subscribed to scan","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/devices HTTP/1.1\" 200 40016 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/quarantine HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/network/bandwidth HTTP/1.1\" 200 98 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:37 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:39 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:39"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:39 +0000] \"GET /api/devices HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:39"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:56:44"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:56:44"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:56:44"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:44 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2204 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:44"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:49 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:49"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:56:56"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:56:56"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:56:56"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:56 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 4632 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:56"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:26:59 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:56:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:57:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:57:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:09"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:57:10"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:11"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:57:11"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:11 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2135 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:11"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:57:19"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:19"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:57:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:19 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 2135 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:19"}
+{"level":"info","message":"[AI] Calling Gemini (gemini-2.5-flash)...","timestamp":"01:57:28"}
+{"level":"error","message":"[AI] gemini API call failed: Gemini error: 403 Your API key was reported as leaked. Please use another API key.","timestamp":"01:57:28"}
+{"level":"warn","message":"[AI] Providing simulated security analysis (Fallback Active)","timestamp":"01:57:28"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:28 +0000] \"POST /api/scan/ai/analyze-device HTTP/1.1\" 200 3263 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:28"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:29 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:37 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:37 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:37 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:37"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:39 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:39"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:27:50 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:57:50"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:28:00 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:58:00"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:58:00"}
+{"level":"info","message":"ARP scan found 50 devices","timestamp":"01:58:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:20:28:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:58:09"}
+{"level":"info","message":"WebSocket client disconnected: ea7dfd40-0cd2-4a00-a081-ee52ccb5eeff","timestamp":"01:58:17"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"01:58:24"}

@@ -220,165 +220,174 @@ async function analyzeDevice(ip) {
     }
   });
 
-  // Base Recommendations with detailed resolution steps
+  // ── Recommendations: each block embeds REAL device data for unique steps ──
+
+  // 1. CVE / Vulnerability Patching — unique per device (CVE IDs + vendor + IP)
   if (vulns.length > 0) {
     const criticalVulns = vulns.filter(v => v.severity === 'critical');
     const highVulns = vulns.filter(v => v.severity === 'high');
+    const cveIds = vulns.map(v => v.cve_id || v.title).filter(Boolean).slice(0, 5);
+    const vendorName = device.device_vendor || device.manufacturer || 'your device manufacturer';
+    const adminUrl = `http://${device.ip}`;
+
     analysis.recommendations.push({
       priority: criticalVulns.length > 0 ? 'critical' : 'high',
-      action: 'Patch identified vulnerabilities',
-      details: `Discovered ${vulns.length} CVE(s): ${criticalVulns.length} critical, ${highVulns.length} high. Immediate patching required.`,
-      howTo: 'Download and apply latest firmware from the manufacturer support page.',
+      action: `Patch ${vulns.length} CVE vulnerabilit${vulns.length > 1 ? 'ies' : 'y'} on ${device.ip}`,
+      details: `Confirmed CVEs: ${cveIds.join(', ')}. ${criticalVulns.length} critical, ${highVulns.length} high severity. These can allow remote code execution or data theft if left unpatched.`,
+      howTo: `Visit ${vendorName}'s official support page and download the latest security firmware for this device.`,
       steps: [
-        'Open your browser and navigate to the device manufacturer\'s official support/downloads website.',
-        `Search for "${device.device_vendor || device.manufacturer || 'your device model'}" firmware updates.`,
-        'Download the latest stable firmware version released after the CVE publication date.',
-        'Log into the device admin panel (check the device label or manual for default URL, e.g., 192.168.0.1).',
-        'Go to Administration > Firmware / Software Update and upload the downloaded file.',
-        'Wait for the device to reboot and verify the new firmware version is applied.',
-        'After update, re-run a vulnerability scan to confirm the CVEs are resolved.'
+        `Search for the official firmware page: https://www.google.com/search?q=${encodeURIComponent(vendorName + ' security firmware update')}`,
+        `Look for a firmware version that patches: ${cveIds.slice(0, 3).join(', ')}.`,
+        `Download the firmware file (usually .bin, .img, or .zip) to your computer.`,
+        `Open a browser and go to ${adminUrl} — log in with your admin credentials. (Default credentials are often on a label on the device itself.)`,
+        `Navigate to Administration → Firmware / Software Update → upload the downloaded file.`,
+        `Wait for the device to reboot automatically (takes 2–5 minutes). Do NOT power off during this.`,
+        `After reboot, go back to ${adminUrl} and verify the new firmware version is displayed.`,
+        `Return to the AI Analyst page and re-analyze ${device.ip} to confirm the CVEs are resolved.`
       ]
     });
   }
 
+  // 2. Weak / Default Credentials — unique per device (IP + MAC + vendor)
   if (device.has_weak_credentials) {
+    const adminUrl = `http://${device.ip}`;
+    const macAddr = device.mac || 'check router DHCP table';
     analysis.recommendations.push({
       priority: 'critical',
-      action: 'Change default / weak credentials',
-      details: 'Device is using weak or default login credentials — a primary attack vector for network compromise.',
-      howTo: 'Access the device admin panel and update to a strong, unique password immediately.',
+      action: `Change weak credentials on ${device.ip} (${device.name || 'Unknown Device'})`,
+      details: `Device ${device.ip} (MAC: ${macAddr}, Vendor: ${device.device_vendor || 'Unknown'}) is using weak or default credentials — the #1 cause of IoT device compromise.`,
+      howTo: `Log into ${adminUrl} and immediately replace the admin password with a strong unique value.`,
       steps: [
-        `Open a browser and navigate to http://${device.ip} or https://${device.ip} (check device label for the correct port).`,
-        'Log in using the current credentials (check device documentation for defaults if unknown).',
-        'Go to Administration > Security > Change Password (exact menu varies by device).',
-        'Set a new password: minimum 12 characters, include uppercase, lowercase, numbers, and symbols (e.g., Wf!k9$mX@2rT).',
-        'Disable remote management or WAN-side admin access if not required.',
-        'Enable two-factor authentication if the device firmware supports it.',
-        'Save changes and log out — confirm you can log back in with the new password.',
-        'Update your password manager or document the new credentials securely.'
+        `Open a browser and navigate to ${adminUrl} (or check the device label for port variants like :8080 or :8443).`,
+        `Log in with the current credentials. If using defaults, check the device label — common defaults: admin/admin, admin/password, root/root.`,
+        `Go to Administration → Security → Change Password (may also be under Account, Users, or System Settings).`,
+        `Set a new password with 12+ characters using uppercase, lowercase, numbers and symbols. Suggested format: ${device.ip.replace(/\./g, '')}-Secure@${new Date().getFullYear()}`,
+        `If there is a separate admin username field, change it from "admin" to a custom name.`,
+        `Disable remote management (WAN-side access) if you don't manage this device externally.`,
+        `Click Save, then log out, clear your browser cache, and log back in with the new credentials to confirm.`,
+        `Record the new credentials in a password manager. Device is at ${device.ip} (MAC: ${macAddr}).`
       ]
     });
   }
 
-  // Recommendation for unidentified/unknown device
-  const isUnknown = !device.device_vendor || device.device_vendor === 'Unknown' || !device.device_type || device.device_type === 'unknown';
+  // 3. Unknown/Unidentified Device — unique per device (IP + MAC prefix)
+  const isUnknown = (!device.device_vendor || device.device_vendor === 'Unknown') ||
+    (!device.device_type || device.device_type === 'unknown');
   if (isUnknown) {
+    const macAddress = device.mac || 'unknown';
+    const macPrefix = device.mac ? device.mac.substring(0, 8) : 'unknown';
     analysis.recommendations.push({
       priority: 'high',
-      action: 'Identify and document this unknown device',
-      details: 'This device has no known vendor or type — it may be a rogue asset, shadow IT, or a misconfigured device. Unknown assets are a major blind spot.',
-      howTo: 'Physically trace the device using its IP and MAC address, then register it in your asset inventory.',
+      action: `Identify and verify unknown device at ${device.ip} (MAC: ${macAddress})`,
+      details: `IP ${device.ip} (MAC: ${macAddress}) has no recognized vendor or device type. This could be a rogue device, shadow IT, or misconfigured endpoint. Unknown assets bypass all security policies.`,
+      howTo: `Look up MAC prefix ${macPrefix} at https://maclookup.app to identify the manufacturer, then physically locate the device.`,
       steps: [
-        `Open a command prompt or terminal and run: arp -a | findstr "${device.ip}" to confirm the MAC address.`,
-        `The MAC address prefix (first 6 characters) identifies the manufacturer — look it up at https://maclookup.app`,
-        'Physically locate the device by checking switch port assignments or using network management tools.',
-        'If the device is known and authorized: update its name and type in the Device Inventory page of this dashboard.',
-        'If the device is unknown/unauthorized: immediately isolate it using the Quarantine Kill Switch feature in this dashboard.',
-        'Investigate what services the device is running by reviewing the Open Ports section above.',
-        'Document the device in your network asset register with owner, purpose, and last review date.',
-        'Set up alerts in this dashboard to notify you if a new unknown device appears on the network again.'
+        `On Windows: Open Command Prompt → run: arp -a | findstr "${device.ip}" to confirm the MAC address for this IP.`,
+        `Look up MAC prefix ${macPrefix} at https://maclookup.app to identify the device manufacturer.`,
+        `Check your router's client list (usually at http://192.168.0.1 → Status → DHCP Clients) for the hostname registered to ${device.ip}.`,
+        `Physically walk the network and look for a device labeled with ${device.ip} or showing recent network activity.`,
+        `If the device is authorized: open Device Inventory in this dashboard, find ${device.ip}, and fill in the Name, Type, and Vendor fields.`,
+        `If the device is NOT authorized or unrecognized: go to Quarantine Kill Switch in this dashboard and isolate ${device.ip} immediately.`,
+        `After identifying the device, document it in your asset register: owner, purpose, date verified, MAC ${macAddress}.`,
+        `Enable new-device detection alerts in this dashboard so you are notified the instant another unknown device joins the network.`
       ]
     });
   }
 
-  // Recommendations for risky ports
+  // 4. Risky Open Ports — per-port unique steps with real IP embedded
   const criticalPorts = analysis.portAnalysis.filter(p => p.risk === 'critical' || p.risk === 'high');
   if (criticalPorts.length > 0) {
+    const PORT_REMEDIATION = {
+      23: (ip) => [`Open browser → http://${ip} → admin panel.`, 'Go to Services → Remote Access.', 'Set Telnet to Disabled — it transmits all data (including passwords) in plaintext.', 'Enable SSH instead: Services → SSH → Enable, Port 22.', `Add a firewall rule: allow SSH only from your PC's IP to ${ip}.`, `Re-analyze ${ip} in AI Analyst to confirm port 23 is closed.`],
+      21: (ip) => [`Open browser → http://${ip} → admin panel.`, 'Go to Services → FTP Server → set to Disabled.', 'For secure file transfer, enable SFTP (SSH-based) instead.', `If FTP must stay on: add firewall rule allowing port 21 only from your specific IP to ${ip}.`, `Verify closure: re-run port scan on ${ip} from this dashboard.`],
+      3389: (ip) => [`On the Windows machine at ${ip}: Press Win+I → System → Remote Desktop.`, 'If RDP is not needed: toggle "Enable Remote Desktop" to OFF.', 'If RDP IS needed: open Windows Firewall → Advanced Settings → Inbound Rules → Remote Desktop (TCP-In) → Properties → Scope → set Remote IP to only your admin PC.', 'Enable NLA: System Properties → Remote → check "Allow connections only from computers running Remote Desktop with NLA".', `Change the RDP port from 3389 to a non-standard port to reduce bot scanning on ${ip}.`, 'Use a VPN for RDP sessions — never expose port 3389 directly to the internet.'],
+      7547: (ip) => [`Port 7547 on ${ip} is used by ISPs for TR-069/CWMP remote router management.`, `Open browser → http://${ip} → Administration → Remote Management.`, 'Look for TR-069, CWMP, or ACS settings.', 'If your ISP does NOT require it: set to Disabled.', 'If ISP requires it: call your ISP and confirm the official ACS server URL — reject any other value.', `Apply a firewall rule allowing port 7547 on ${ip} only from your ISP's official IP range.`],
+      22: (ip) => [`SSH is open on ${ip} — harden it immediately.`, `SSH into ${ip} or access its admin panel.`, 'Disable password authentication: edit /etc/ssh/sshd_config → set PasswordAuthentication no.', 'Switch to SSH key-based authentication only.', `Change SSH port from 22 to a non-standard port (e.g., 2222) to reduce automated attacks.`, `Add a firewall rule: allow the new SSH port only from your IP to ${ip}.`],
+      445: (ip) => [`SMB port 445 on ${ip} is critical — it is the attack vector used by WannaCry and EternalBlue.`, 'On Windows: open PowerShell as Admin → run: Set-SmbServerConfiguration -EnableSMB1Protocol $false', 'Disable SMBv1: Control Panel → Programs → Turn Windows features on/off → uncheck SMB 1.0/CIFS.', 'Apply all Windows Updates immediately to patch known SMB exploits.', `Block port 445 on the network firewall to prevent lateral movement from ${ip}.`, 'Ensure network segmentation so no IoT/guest devices can reach this SMB host.'],
+    };
+
     criticalPorts.slice(0, 3).forEach(p => {
-      const portSteps = {
-        23: [ // Telnet
-          'Log into the device admin panel.',
-          'Navigate to Services or Administration > Remote Access.',
-          'Disable Telnet service — it transmits data in plaintext.',
-          'Enable SSH instead if remote access is required.',
-          'Verify Telnet is closed by re-running a port scan.'
-        ],
-        21: [ // FTP
-          'Log into the device admin panel.',
-          'Navigate to Services > FTP and disable the FTP server.',
-          'Use SFTP or SCP for secure file transfers instead.',
-          'If FTP is required, restrict it to specific IP addresses only.'
-        ],
-        3389: [ // RDP
-          'Open Windows Settings > System > Remote Desktop.',
-          'If RDP is not needed, toggle "Enable Remote Desktop" to OFF.',
-          'If RDP is needed: restrict access using Windows Firewall to allow only specific IPs.',
-          'Ensure Network Level Authentication (NLA) is enabled.',
-          'Use a VPN for remote access instead of exposing RDP directly.'
-        ],
-        7547: [ // TR-069
-          'Log into your router/modem admin panel.',
-          'Navigate to Administration or Management > Remote Management.',
-          'Disable TR-069/CWMP if not required by your ISP.',
-          'Contact your ISP to confirm if this port is needed for remote provisioning.'
-        ]
-      };
+      const stepsFn = PORT_REMEDIATION[p.port];
       analysis.recommendations.push({
         priority: p.risk === 'critical' ? 'critical' : 'high',
-        action: `Secure or close port ${p.port} (${p.service})`,
-        details: p.threat || `Port ${p.port} exposes the ${p.service} service which can be exploited if not properly secured.`,
-        howTo: `Disable the ${p.service} service or restrict access to trusted IPs only.`,
-        steps: portSteps[p.port] || [
-          `Log into the device admin panel at http://${device.ip}.`,
-          `Navigate to Services or Security settings and locate the ${p.service} service (port ${p.port}).`,
-          'Disable the service if it is not required for normal operation.',
-          `If required, configure a firewall rule to allow port ${p.port} only from trusted IP addresses.`,
-          'Re-run the AI analyst scan to verify the port is no longer exposed.'
+        action: `Close/secure port ${p.port} (${p.service || 'Unknown Service'}) on ${device.ip}`,
+        details: `${p.threat || `Port ${p.port} on ${device.ip} exposes ${p.service || 'a service'} to exploitation.`} Vendor: ${device.device_vendor || 'Unknown'}, MAC: ${device.mac || 'Unknown'}.`,
+        howTo: `Disable the ${p.service || 'service on port ' + p.port} on ${device.ip} or restrict it to trusted IPs only.`,
+        steps: stepsFn ? stepsFn(device.ip) : [
+          `Open a browser and go to http://${device.ip} → admin panel.`,
+          `Navigate to Services or Security Settings → find the service running on port ${p.port} ("${p.service || 'Unknown'}").`,
+          `If this service is NOT required: disable/stop it immediately.`,
+          `If it IS required: add a firewall rule restricting port ${p.port} to only your admin PC's IP.`,
+          `Verify the fix: use a port scanner or this dashboard's scan feature to confirm port ${p.port} is closed on ${device.ip}.`,
+          `Re-analyze ${device.ip} in the AI Analyst to confirm the threat is mitigated.`
         ]
       });
     });
   }
 
-  // Misconfigurations
+  // 5. Misconfigurations — one unique recommendation per misconfiguration
   if (misconfigs.length > 0) {
-    analysis.recommendations.push({
-      priority: 'medium',
-      action: 'Fix security misconfigurations',
-      details: `${misconfigs.length} misconfiguration(s) found: ${misconfigs.map(m => m.title).join(', ')}.`,
-      howTo: 'Review and correct each misconfiguration through the device admin interface.',
-      steps: [
-        `Log into the device admin panel at http://${device.ip}.`,
-        ...misconfigs.slice(0, 3).map((m, i) => `Step ${i + 2}: Fix "${m.title}" — ${m.recommendation || m.description || 'Check device manual'}.`),
-        'Save all changes and reboot the device if prompted.',
-        'Run a configuration audit again to verify all issues are resolved.'
-      ]
+    misconfigs.slice(0, 3).forEach(m => {
+      analysis.recommendations.push({
+        priority: m.severity || 'medium',
+        action: `Fix misconfiguration: "${m.title}" on ${device.ip}`,
+        details: `${m.description || `Security misconfiguration "${m.title}" detected`} on ${device.ip} (${device.device_vendor || 'Unknown vendor'}, MAC: ${device.mac || 'Unknown'}).`,
+        howTo: m.recommendation || `Correct this issue through the device admin panel at http://${device.ip}.`,
+        steps: [
+          `Open http://${device.ip} in your browser and log into the admin panel.`,
+          m.port
+            ? `This issue is on port ${m.port} — go to Services → find the service on port ${m.port}.`
+            : `Go to Administration or Security Settings.`,
+          `Fix: ${m.title} — ${m.recommendation || m.description || 'Follow the device manual for this setting'}.`,
+          `Save the changes and reboot the device if prompted.`,
+          `Re-run the Config Audit from Device Inventory for ${device.ip} to verify this misconfiguration is resolved.`
+        ]
+      });
     });
   }
 
-  // General hardening recommendation
+  // 6. General hardening — only if zero other recommendations, unique steps per device
   if (analysis.recommendations.length === 0) {
+    const vendorName = device.device_vendor || device.manufacturer || 'your device manufacturer';
     analysis.recommendations.push({
       priority: 'low',
-      action: 'Apply general security hardening',
-      details: 'No critical issues detected. Apply preventive hardening to maintain security posture.',
-      howTo: 'Follow device-specific hardening guides from the manufacturer.',
+      action: `Apply preventive security hardening on ${device.ip} (${device.name || 'Unknown Device'})`,
+      details: `No critical issues currently detected on ${device.ip}. Proactive hardening keeps this ${vendorName} device resilient against future threats.`,
+      howTo: `Follow the ${vendorName} security hardening guide on their official support website.`,
       steps: [
-        'Ensure the device firmware is up to date — check the manufacturer website monthly.',
-        'Disable all unused services and features in the admin panel.',
-        'Enable logging and monitoring if supported — forward logs to a central system.',
-        'Change the default admin username and set a strong password if not already done.',
-        'Enable automatic security updates if the device supports it.',
-        'Periodically re-run the AI analyst scan to detect new issues.'
+        `Go to http://${device.ip} → Administration → Firmware and verify the installed version matches the latest from ${vendorName}'s website.`,
+        `Disable all services not in active use — fewer open ports means a smaller attack surface on ${device.ip}.`,
+        `Enable logging: Administration → Logging → configure syslog or remote logging to your monitoring tool.`,
+        `If the admin username is still "admin", rename it: Administration → Users → change to a custom name.`,
+        `Set session timeout to 5–10 minutes: Administration → Security → Session Timeout.`,
+        `Set a monthly calendar reminder to re-run the AI Analyst on ${device.ip} to detect new issues.`
       ]
     });
   }
 
 
-  // 2. Enhance with AI if available
+  // 2. Enhance with AI — include CVE IDs explicitly so the summary names them
   const manufacturer = device.device_vendor || device.manufacturer || 'Unknown';
-  const prompt = `Conduct a DETAILED security assessment for:
-- IP: ${device.ip}
-- Name: ${device.name || 'Unknown'}
-- Type: ${device.iot_device_type || device.device_type || 'Unknown'}
-- Vendor: ${manufacturer}
-- Risk Score: ${analysis.riskAssessment.score}/100
-- Open Ports: ${analysis.portAnalysis.map(p => p.port).join(', ')}
-- Vulnerabilities: ${vulns.map(v => v.title).join(', ')}
+  const cveDetail = vulns.length > 0
+    ? `\nKnown CVEs on this device:\n${vulns.map(v => `  - ${v.cve_id || v.title} (${v.severity?.toLowerCase() || 'unknown'} severity)${v.description ? ': ' + v.description.substring(0, 100) : ''}`).join('\n')}`
+    : '\nNo CVE records found for this device in the database.';
 
-Provide a concise security summary (2 sentences) and a security prediction (1 sentence) about future risk.
-Format:
-SUMMARY: [Summary]
-PREDICTION: [Prediction]`;
+  const prompt = `You are a cybersecurity expert writing a threat report. Be specific and direct.
+
+Device under analysis:
+- IP Address: ${device.ip}
+- Device Name: ${device.name || 'Unknown'}
+- Device Type: ${device.iot_device_type || device.device_type || 'Unknown'}
+- Vendor/Manufacturer: ${manufacturer}
+- MAC Address: ${device.mac || 'Unknown'}
+- Risk Score: ${analysis.riskAssessment.score}/100
+- Open Ports: ${analysis.portAnalysis.map(p => `${p.port} (${p.service})`).join(', ') || 'None detected'}
+${cveDetail}
+
+Write your response in EXACTLY this format (no extra text before or after):
+SUMMARY: [2-3 sentences. If CVEs exist, explicitly name each CVE ID (e.g. CVE-2021-34527) and its impact. Mention the device IP ${device.ip} and vendor ${manufacturer}. If no CVEs, describe the key security concern based on open ports or unknown device status.]
+PREDICTION: [1 sentence predicting the most likely attack scenario if the issues are not resolved within 30 days.]`;
+
 
   try {
     const aiResult = await callAIEngine(prompt);

@@ -108,14 +108,27 @@ const AIReport = () => {
           level: apiAnalysis.riskAssessment?.level || 'unknown',
           factors: apiAnalysis.riskAssessment?.factors || []
         },
-        threats: apiAnalysis.vulnerabilities?.details?.map((v: any) =>
-          `${v.severity?.toUpperCase() || 'UNKNOWN'}: ${v.title || v.cveId || 'Unknown vulnerability'}`
-        ) || [],
+        // Show CVE ID prominently if available
+        threats: (apiAnalysis.threats || []).map((t: string) => t).concat(
+          (apiAnalysis.vulnerabilities?.details || []).map((v: any) => {
+            const cveId = v.cve_id || v.cveId;
+            const label = cveId ? `[${cveId}]` : '';
+            return `${v.severity?.toUpperCase() || 'UNKNOWN'} ${label}: ${v.title || v.cveId || 'Unknown vulnerability'}`;
+          })
+        ).filter((t: string) => t),
         recommendations: apiAnalysis.recommendations || [],
         portAnalysis: apiAnalysis.portAnalysis || [],
         threatIntelligence: apiAnalysis.threatIntelligence || [],
         realTimeFindings: apiAnalysis.realTimeFindings || null,
-        prediction
+        // Use the AI-generated prediction from the backend if available
+        prediction: apiAnalysis.prediction || (() => {
+          let p = "Based on current analysis:";
+          if (apiAnalysis.realTimeFindings?.openPortsDiscovered > 5) p += ` High attack surface with ${apiAnalysis.realTimeFindings.openPortsDiscovered} open ports detected.`;
+          if (apiAnalysis.vulnerabilities?.critical > 0) p += ` Critical vulnerabilities present — likelihood of exploitation is HIGH.`;
+          else if (apiAnalysis.vulnerabilities?.high > 0) p += ` High-severity vulnerabilities — elevated risk of compromise.`;
+          else p += ` Device shows acceptable security posture. Continue monitoring.`;
+          return p;
+        })()
       });
 
       setSelectedDevice({
