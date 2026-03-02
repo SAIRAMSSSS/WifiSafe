@@ -9,8 +9,13 @@ import { useSocket } from "@/lib/socket";
 import {
   Network,
   AlertTriangle,
+  Scan,
+  Brain,
+  ShieldOff,
+  Key,
   Shield,
   Wifi,
+  HardDrive,
   Activity,
 } from "lucide-react";
 
@@ -26,6 +31,7 @@ interface Stats {
 const Index = () => {
   const { devices, fetchDevices } = useDeviceStore();
   const { alerts, fetchAlerts } = useAlertStore();
+  const { fetchQuarantinedDevices } = useQuarantineStore();
   const socket = useSocket();
 
   const [networkTraffic, setNetworkTraffic] = useState<string>("0 GB");
@@ -42,6 +48,7 @@ const Index = () => {
     if (!socket) return;
 
     const handleScanComplete = (data: any) => {
+      console.log('[Dashboard] Scan complete, refreshing score...', data);
       const token = localStorage.getItem('token');
       fetch('http://localhost:3001/api/security/score', {
         headers: { Authorization: `Bearer ${token}` }
@@ -59,6 +66,7 @@ const Index = () => {
     };
 
     const handleScoreUpdate = (data: any) => {
+      console.log('[Dashboard] Real-time score update:', data);
       if (data.score !== undefined) {
         setStats(prev => ({
           ...prev,
@@ -86,6 +94,7 @@ const Index = () => {
   useEffect(() => {
     fetchDevices();
     fetchAlerts();
+    fetchQuarantinedDevices();
 
     const pollRealtimeData = async () => {
       try {
@@ -108,6 +117,7 @@ const Index = () => {
         const statsRes = await fetch('http://localhost:3001/api/devices/stats/summary', { headers });
         if (statsRes.ok) {
           const statsData = await statsRes.json();
+          console.log('Stats data received:', statsData);
 
           let securityScore = statsData.securityScore;
           let scoreStatus = statsData.scoreStatus || 'unknown';
@@ -123,6 +133,7 @@ const Index = () => {
                 scoreMessage = securityData.message || '';
               }
             } catch (e) {
+              console.warn('Failed to fetch security score from security endpoint:', e);
               scoreStatus = 'no_scan_data';
               scoreMessage = 'No scan data available';
             }
@@ -136,9 +147,29 @@ const Index = () => {
             totalThreats: statsData.totalThreats ?? 0,
             totalVulnerabilities: statsData.totalVulnerabilities ?? 0
           });
+        } else {
+          console.error('Failed to fetch stats:', statsRes.status, statsRes.statusText);
+          const errorText = await statsRes.text();
+          console.error('Error response:', errorText);
+
+          try {
+            const securityRes = await fetch('http://localhost:3001/api/security/score', { headers });
+            if (securityRes.ok) {
+              const securityData = await securityRes.json();
+              setStats(prev => ({
+                ...prev,
+                securityScore: securityData.score ?? 0,
+                scoreStatus: securityData.status || 'no_scan_data',
+                scoreMessage: securityData.message || 'No scan data available'
+              }));
+            }
+          } catch (e) {
+            console.warn('Failed to fetch security score:', e);
+          }
         }
 
         fetchAlerts();
+
       } catch (e) {
         console.error("Failed to fetch real-time data", e);
       }
@@ -158,6 +189,7 @@ const Index = () => {
       <section className="mb-12 animate-fade-in">
         <div className="glass-panel-glow p-8 relative overflow-hidden">
           <div className="scan-line" />
+
           <div className="flex flex-col lg:flex-row items-center gap-8">
             <div className="flex-1 text-center lg:text-left">
               <p className="text-xs uppercase tracking-[0.3em] text-primary mb-2">
@@ -169,9 +201,11 @@ const Index = () => {
                 <span className="neon-text text-primary">Command Center</span>
               </h1>
               <p className="text-muted-foreground max-w-md mx-auto lg:mx-0">
-                Real-time network monitoring and threat detection for your digital infrastructure.
+                Real-time network monitoring, threat detection, and automated
+                security response for your digital infrastructure.
               </p>
             </div>
+
             <div className="flex-shrink-0">
               <SecurityGauge score={stats.securityScore || 100} size={220} />
             </div>
@@ -234,7 +268,7 @@ const Index = () => {
               Security Modules
             </h2>
             <p className="text-sm text-muted-foreground">
-              Access defense systems and monitoring tools
+              Access all defense systems and monitoring tools
             </p>
           </div>
           <Activity className="w-6 h-6 text-primary animate-pulse-slow" />
@@ -248,6 +282,62 @@ const Index = () => {
               icon={Network}
               href="/topology"
               variant="primary"
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "150ms" }}>
+            <FeatureCard
+              title="Device Inventory"
+              description="Complete database of hardware assets with risk assessment and vendor data"
+              icon={HardDrive}
+              href="/inventory"
+              variant="secondary"
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "200ms" }}>
+            <FeatureCard
+              title="Intruder Alert Feed"
+              description="Real-time threat timeline with severity filtering and incident tracking"
+              icon={AlertTriangle}
+              href="/intruder-feed"
+              variant="danger"
+              badge={`${criticalAlerts} Critical`}
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "250ms" }}>
+            <FeatureCard
+              title="Scan Engine"
+              description="Automated vulnerability detection with customizable scan profiles"
+              icon={Scan}
+              href="/scan-engine"
+              variant="primary"
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "300ms" }}>
+            <FeatureCard
+              title="AI Security Analyst"
+              description="Machine learning powered threat analysis and recommendations"
+              icon={Brain}
+              href="/ai-report"
+              variant="accent"
+              badge="Beta"
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "350ms" }}>
+            <FeatureCard
+              title="Quarantine Kill Switch"
+              description="Emergency network isolation with comprehensive audit logging"
+              icon={ShieldOff}
+              href="/quarantine"
+              variant="danger"
+            />
+          </div>
+          <div className="animate-fade-in" style={{ animationDelay: "400ms" }}>
+            <FeatureCard
+              title="Admin Login Center"
+              description="Centralized device administration portal with secure access"
+              icon={Key}
+              href="/admin-center"
+              variant="secondary"
             />
           </div>
         </div>

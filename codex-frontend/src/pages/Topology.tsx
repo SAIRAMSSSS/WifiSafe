@@ -1,7 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { useState, useMemo, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import { Server, Router, Monitor, Smartphone, Printer, Database, Shield } from "lucide-react";
+import { Server, Router, Monitor, Smartphone, Printer, Database, Shield, Loader2 } from "lucide-react";
 import { networkAPI } from "@/lib/api";
 import { useSocket } from "@/lib/socket";
 
@@ -27,6 +27,7 @@ const Topology = () => {
   const fetchTopology = async () => {
     try {
       const { data } = await networkAPI.getTopology();
+
       const backendNodes = data.nodes || [];
       const backendEdges = data.edges || [];
 
@@ -63,14 +64,24 @@ const Topology = () => {
   useEffect(() => {
     if (!socket) return;
 
-    const handleRefresh = () => {
+    const handleScanComplete = () => {
+      console.log('Scan completed - refreshing topology...');
       fetchTopology();
     };
 
-    socket.on('scan_complete', handleRefresh);
-    socket.on('device_updated', handleRefresh);
-    socket.on('device_connected', handleRefresh);
+    const handleDeviceUpdate = (data: any) => {
+      console.log('Device updated - refreshing topology...', data);
+      fetchTopology();
+    };
 
+    const handleNewDevice = (data: any) => {
+      console.log('New device discovered - refreshing topology...', data);
+      fetchTopology();
+    };
+
+    socket.on('scan_complete', handleScanComplete);
+    socket.on('device_updated', handleDeviceUpdate);
+    socket.on('device_connected', handleNewDevice);
     socket.on('devices', (data: any) => {
       if (data.event === 'new_device' || data.event === 'device_updated') {
         fetchTopology();
@@ -78,9 +89,9 @@ const Topology = () => {
     });
 
     return () => {
-      socket.off('scan_complete', handleRefresh);
-      socket.off('device_updated', handleRefresh);
-      socket.off('device_connected', handleRefresh);
+      socket.off('scan_complete', handleScanComplete);
+      socket.off('device_updated', handleDeviceUpdate);
+      socket.off('device_connected', handleNewDevice);
       socket.off('devices');
     };
   }, [socket]);
@@ -149,7 +160,7 @@ const Topology = () => {
         </p>
       </div>
 
-      <div className="glass-panel p-4 mb-6 flex flex-wrap gap-2 animate-fade-in">
+      <div className="glass-panel p-4 mb-6 flex flex-wrap gap-2 animate-fade-in" style={{ animationDelay: "100ms" }}>
         {["all", "low", "medium", "high", "critical"].map((filter) => (
           <button
             key={filter}
@@ -167,7 +178,7 @@ const Topology = () => {
       </div>
 
       <div className="grid lg:grid-cols-4 gap-6">
-        <div className="lg:col-span-3 glass-panel-glow p-6 animate-fade-in">
+        <div className="lg:col-span-3 glass-panel-glow p-6 animate-fade-in" style={{ animationDelay: "200ms" }}>
           <div className="relative w-full aspect-[16/10] bg-background/50 rounded-lg overflow-hidden">
             <svg className="absolute inset-0 w-full h-full">
               {connections.map((conn, i) => (
@@ -235,7 +246,7 @@ const Topology = () => {
           </div>
         </div>
 
-        <div className="glass-panel p-6 animate-fade-in">
+        <div className="glass-panel p-6 animate-fade-in" style={{ animationDelay: "300ms" }}>
           <h3 className="text-lg font-display font-semibold text-foreground mb-4">
             Node Details
           </h3>

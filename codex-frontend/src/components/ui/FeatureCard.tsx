@@ -53,8 +53,10 @@ export const FeatureCard = ({
         styles.glow
       )}
     >
+      {/* Scan line effect */}
       <div className="scan-line opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
+      
+      {/* Badge */}
       {badge && (
         <span className="absolute top-3 right-3 px-2 py-0.5 text-[10px] uppercase tracking-wider bg-primary/20 text-primary rounded-full border border-primary/30">
           {badge}
@@ -85,4 +87,3 @@ export const FeatureCard = ({
     </Link>
   );
 };
-

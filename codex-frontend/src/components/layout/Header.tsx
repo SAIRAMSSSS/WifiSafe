@@ -7,6 +7,12 @@ import { useAlerts } from "@/lib/hooks";
 const navItems = [
   { href: "/", label: "Dashboard" },
   { href: "/topology", label: "Topology" },
+  { href: "/inventory", label: "Inventory" },
+  { href: "/intruder-feed", label: "Alerts" },
+  { href: "/scan-engine", label: "Scanner" },
+  { href: "/ai-report", label: "AI Analyst" },
+  { href: "/quarantine", label: "Quarantine" },
+  { href: "/admin-center", label: "Admin" },
 ];
 
 export const Header = () => {
@@ -24,12 +30,14 @@ export const Header = () => {
   const settingsRef = useRef<HTMLDivElement>(null);
   const userRef = useRef<HTMLDivElement>(null);
 
+  // Fetch alerts on mount
   useEffect(() => {
     fetchAlerts();
     const interval = setInterval(fetchAlerts, 10000);
     return () => clearInterval(interval);
   }, []);
 
+  // Close dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (notificationRef.current && !notificationRef.current.contains(e.target as Node)) {
@@ -49,6 +57,7 @@ export const Header = () => {
   const unreadAlerts = alerts.filter((a: any) => !a.acknowledged);
   const recentAlerts = alerts.slice(0, 5);
 
+  // Auto-fix diagnostics function
   const runDiagnostics = async () => {
     setIsFixing(true);
     setFixResult(null);
@@ -57,6 +66,7 @@ export const Header = () => {
       const issues: string[] = [];
       const fixes: string[] = [];
 
+      // Check backend health
       try {
         const res = await fetch('http://localhost:3001/api/health');
         if (!res.ok) {
@@ -66,6 +76,7 @@ export const Header = () => {
         issues.push('Cannot connect to backend');
       }
 
+      // Check devices API
       try {
         const res = await fetch('http://localhost:3001/api/devices');
         if (res.ok) {
@@ -77,6 +88,7 @@ export const Header = () => {
         issues.push('Devices API unreachable');
       }
 
+      // Check alerts API
       try {
         const res = await fetch('http://localhost:3001/api/alerts');
         if (res.ok) {
@@ -88,9 +100,11 @@ export const Header = () => {
         issues.push('Alerts API unreachable');
       }
 
+      // Refresh data stores
       await fetchAlerts();
       fixes.push('Alert data refreshed');
 
+      // Refresh the page data
       window.dispatchEvent(new Event('storage'));
       fixes.push('Local state synchronized');
 
@@ -134,6 +148,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-border/50 rounded-none">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
+          {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="relative">
               <Shield className="w-8 h-8 text-primary transition-all duration-300 group-hover:scale-110" />
@@ -149,6 +164,7 @@ export const Header = () => {
             </div>
           </Link>
 
+          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-1">
             {navItems.map((item) => (
               <Link
@@ -166,7 +182,9 @@ export const Header = () => {
             ))}
           </nav>
 
+          {/* Right side actions */}
           <div className="flex items-center gap-2">
+            {/* Notifications */}
             <div className="relative" ref={notificationRef}>
               <button
                 className="relative p-2 rounded-lg transition-colors hover:bg-muted/50 group"
@@ -206,6 +224,10 @@ export const Header = () => {
                             "p-3 border-b border-border/50 hover:bg-muted/30 cursor-pointer transition-colors",
                             !alert.acknowledged && "bg-primary/5"
                           )}
+                          onClick={() => {
+                            navigate('/intruder-feed');
+                            setNotificationOpen(false);
+                          }}
                         >
                           <div className="flex items-start gap-3">
                             <div className={cn("p-1.5 rounded", getSeverityColor(alert.severity))}>
@@ -225,10 +247,18 @@ export const Header = () => {
                       ))
                     )}
                   </div>
+                  <Link
+                    to="/intruder-feed"
+                    className="block p-3 text-center text-sm text-primary hover:bg-muted/30 transition-colors"
+                    onClick={() => setNotificationOpen(false)}
+                  >
+                    View All Alerts
+                  </Link>
                 </div>
               )}
             </div>
 
+            {/* Settings */}
             <div className="relative hidden sm:block" ref={settingsRef}>
               <button
                 className="p-2 rounded-lg transition-colors hover:bg-muted/50 group"
@@ -247,6 +277,28 @@ export const Header = () => {
                     <h3 className="font-display font-semibold text-foreground">Quick Settings</h3>
                   </div>
                   <div className="p-2">
+                    <Link
+                      to="/intruder-feed"
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/30 transition-colors"
+                      onClick={() => setSettingsOpen(false)}
+                    >
+                      <Bell className="w-4 h-4 text-primary" />
+                      <div>
+                        <p className="text-sm font-medium text-foreground">Email Alerts</p>
+                        <p className="text-xs text-muted-foreground">Configure notifications</p>
+                      </div>
+                    </Link>
+                    <Link
+                      to="/scan-engine"
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/30 transition-colors"
+                      onClick={() => setSettingsOpen(false)}
+                    >
+                      <Activity className="w-4 h-4 text-secondary" />
+                      <div>
+                        <p className="text-sm font-medium text-foreground">Scan Settings</p>
+                        <p className="text-xs text-muted-foreground">Configure scanner</p>
+                      </div>
+                    </Link>
                     <button
                       onClick={runDiagnostics}
                       disabled={isFixing}
@@ -284,6 +336,7 @@ export const Header = () => {
               )}
             </div>
 
+            {/* User Menu */}
             <div className="relative hidden sm:block" ref={userRef}>
               <button
                 className="p-2 rounded-lg transition-colors hover:bg-muted/50 group"
@@ -303,6 +356,14 @@ export const Header = () => {
                     <p className="text-xs text-muted-foreground">admin@blackcodex.local</p>
                   </div>
                   <div className="p-2">
+                    <Link
+                      to="/admin-center"
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-muted/30 transition-colors"
+                      onClick={() => setUserMenuOpen(false)}
+                    >
+                      <User className="w-4 h-4 text-muted-foreground" />
+                      <span className="text-sm text-foreground">Device Admin</span>
+                    </Link>
                     <button
                       onClick={handleLogout}
                       className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-destructive/10 transition-colors text-destructive"
@@ -315,6 +376,7 @@ export const Header = () => {
               )}
             </div>
 
+            {/* Mobile menu button */}
             <button
               className="lg:hidden p-2 rounded-lg transition-colors hover:bg-muted/50"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -324,6 +386,7 @@ export const Header = () => {
           </div>
         </div>
 
+        {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <nav className="lg:hidden py-4 border-t border-border/50 animate-fade-in">
             <div className="grid grid-cols-2 gap-2">
@@ -349,4 +412,3 @@ export const Header = () => {
     </header>
   );
 };
-

@@ -7,9 +7,10 @@ interface SecurityGaugeProps {
 }
 
 export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: SecurityGaugeProps) => {
+  // Ensure score is a valid number between 0 and 100
   const validScore = Math.max(0, Math.min(100, Number(score) || 0));
   const [animatedScore, setAnimatedScore] = useState(0);
-
+  
   useEffect(() => {
     const timer = setTimeout(() => {
       setAnimatedScore(validScore);
@@ -37,6 +38,7 @@ export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: S
   return (
     <div className="relative flex flex-col items-center">
       <svg width={size} height={size} className="transform -rotate-90">
+        {/* Background circle */}
         <circle
           cx={size / 2}
           cy={size / 2}
@@ -45,6 +47,7 @@ export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: S
           fill="none"
           className="stroke-muted"
         />
+        {/* Progress circle */}
         <circle
           cx={size / 2}
           cy={size / 2}
@@ -60,6 +63,7 @@ export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: S
             filter: `drop-shadow(0 0 10px ${getGlowColor()})`,
           }}
         />
+        {/* Glow effect */}
         <circle
           cx={size / 2}
           cy={size / 2}
@@ -76,9 +80,9 @@ export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: S
           }}
         />
       </svg>
-
+      
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <span
+        <span 
           className="text-5xl font-display font-bold neon-text"
           style={{ color: getScoreColor() }}
         >
@@ -91,4 +95,3 @@ export const SecurityGauge = ({ score, size = 200, label = "Security Score" }: S
     </div>
   );
 };
-

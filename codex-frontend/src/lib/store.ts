@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { deviceAPI, alertAPI, quarantineAPI, auditAPI } from './api';
 
-interface DeviceStore {
+interface DeviceState {
   devices: any[];
   selectedDevice: any | null;
   stats: any | null;
@@ -14,10 +14,10 @@ interface DeviceStore {
   fetchDevices: () => Promise<void>;
   fetchDeviceStats: () => Promise<void>;
   selectDevice: (device: any) => void;
-  setFilters: (filters: any) => void;
+  setFilters: (filters: DeviceState['filters']) => void;
 }
 
-export const useDeviceStore = create<DeviceStore>((set) => ({
+export const useDeviceStore = create<DeviceState>((set) => ({
   devices: [],
   selectedDevice: null,
   stats: null,
@@ -27,7 +27,6 @@ export const useDeviceStore = create<DeviceStore>((set) => ({
     riskLevel: null,
     search: '',
   },
-
   fetchDevices: async () => {
     try {
       const { data } = await deviceAPI.getAll();
@@ -36,7 +35,6 @@ export const useDeviceStore = create<DeviceStore>((set) => ({
       console.error('Failed to fetch devices:', error);
     }
   },
-
   fetchDeviceStats: async () => {
     try {
       const { data } = await deviceAPI.getStats();
@@ -45,13 +43,11 @@ export const useDeviceStore = create<DeviceStore>((set) => ({
       console.error('Failed to fetch stats:', error);
     }
   },
-
   selectDevice: (device) => set({ selectedDevice: device }),
-
   setFilters: (filters) => set({ filters }),
 }));
 
-interface AlertStore {
+interface AlertState {
   alerts: any[];
   unreadCount: number;
   fetchAlerts: () => Promise<void>;
@@ -59,10 +55,9 @@ interface AlertStore {
   acknowledgeAlert: (id: string) => Promise<void>;
 }
 
-export const useAlertStore = create<AlertStore>((set) => ({
+export const useAlertStore = create<AlertState>((set) => ({
   alerts: [],
   unreadCount: 0,
-
   fetchAlerts: async () => {
     try {
       const { data } = await alertAPI.getAll();
@@ -73,13 +68,11 @@ export const useAlertStore = create<AlertStore>((set) => ({
       console.error('Failed to fetch alerts:', error);
     }
   },
-
   addAlert: (alert) =>
     set((state) => ({
       alerts: [alert, ...state.alerts],
       unreadCount: state.unreadCount + 1,
     })),
-
   acknowledgeAlert: async (id: string) => {
     try {
       await alertAPI.acknowledge(id);
@@ -95,7 +88,7 @@ export const useAlertStore = create<AlertStore>((set) => ({
   },
 }));
 
-interface QuarantineStore {
+interface QuarantineState {
   quarantinedDevices: any[];
   logs: any[];
   stats: any | null;
@@ -105,11 +98,10 @@ interface QuarantineStore {
   releaseDevice: (id: string) => Promise<void>;
 }
 
-export const useQuarantineStore = create<QuarantineStore>((set) => ({
+export const useQuarantineStore = create<QuarantineState>((set) => ({
   quarantinedDevices: [],
   logs: [],
   stats: null,
-
   fetchQuarantinedDevices: async () => {
     try {
       const { data } = await quarantineAPI.getAll();
@@ -118,7 +110,6 @@ export const useQuarantineStore = create<QuarantineStore>((set) => ({
       console.error('Failed to fetch quarantined devices:', error);
     }
   },
-
   fetchLogs: async () => {
     try {
       const { data } = await auditAPI.getLogs({ limit: 10 });
@@ -127,7 +118,6 @@ export const useQuarantineStore = create<QuarantineStore>((set) => ({
       console.error('Failed to fetch audit logs:', error);
     }
   },
-
   quarantineDevice: async (id: string, reason: string) => {
     try {
       await quarantineAPI.quarantineDevice(id, reason);
@@ -138,7 +128,6 @@ export const useQuarantineStore = create<QuarantineStore>((set) => ({
       throw error;
     }
   },
-
   releaseDevice: async (id: string) => {
     try {
       await quarantineAPI.releaseDevice(id);
@@ -150,4 +139,3 @@ export const useQuarantineStore = create<QuarantineStore>((set) => ({
     }
   },
 }));
-
