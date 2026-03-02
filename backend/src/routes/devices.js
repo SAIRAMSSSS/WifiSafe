@@ -9,6 +9,7 @@ const { checkCredentials, auditMisconfigurations } = require('../services/creden
 const { broadcast } = require('../websocket/server');
 const logger = require('../utils/logger');
 const { queryNVD, getDeviceCVEs } = require('../services/cveLookup');
+const { calculateSecurityScore } = require('./security'); // reuse full score logic
 
 const router = express.Router();
 
@@ -278,18 +279,26 @@ router.get('/stats/summary', optionalAuth, (req, res) => {
     const mediumRiskDevices = db.prepare("SELECT COUNT(*) as count FROM devices WHERE risk_level = 'medium'").get().count;
     const lowRiskDevices = db.prepare("SELECT COUNT(*) as count FROM devices WHERE risk_level = 'low' OR risk_level = 'safe' OR risk_level IS NULL").get().count;
 
-    // Calculate network-wide security score (100 = perfect, lower = more risky)
-    // Each critical device reduces score by 15, high by 10, medium by 5
-    let securityScore = 100;
-    securityScore -= criticalDevices * 15;
-    securityScore -= highRiskDevices * 10;
-    securityScore -= mediumRiskDevices * 5;
-    securityScore = Math.max(0, Math.min(100, securityScore)); // Clamp between 0-100
-
     // Get threat/alert counts
     const criticalAlerts = db.prepare("SELECT COUNT(*) as count FROM alerts WHERE severity = 'critical' AND acknowledged = 0").get().count;
     const totalThreats = db.prepare("SELECT COUNT(*) as count FROM alerts WHERE type IN ('threat', 'intrusion', 'vulnerability', 'critical_cve', 'weak_credentials')").get().count;
     const totalVulnerabilities = db.prepare("SELECT COUNT(*) as count FROM vulnerabilities WHERE status = 'open'").get().count;
+
+    // Use the full security score calculator for accuracy
+    let securityScore = 100;
+    let scoreStatus = 'ok';
+    let scoreMessage = '';
+    try {
+      const fullScore = calculateSecurityScore(db);
+      securityScore = fullScore.score ?? 100;
+      scoreStatus = fullScore.status || 'ok';
+      scoreMessage = fullScore.message || '';
+    } catch (scoreErr) {
+      // Fallback: basic device-risk calculation
+      securityScore = Math.max(0, Math.min(100, 100 - (criticalDevices * 15) - (highRiskDevices * 10) - (mediumRiskDevices * 5)));
+      scoreStatus = 'partial';
+      scoreMessage = 'Score calculated from device risk levels';
+    }
 
     res.json({
       total,
@@ -303,6 +312,8 @@ router.get('/stats/summary', optionalAuth, (req, res) => {
       mediumRiskDevices,
       lowRiskDevices,
       securityScore,
+      scoreStatus,
+      scoreMessage,
       criticalAlerts,
       totalThreats,
       totalVulnerabilities

@@ -9943,3 +9943,206 @@
 {"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:03:00"}
 {"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:03:00"}
 {"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"01:03:01"}
+{"level":"info","message":"ARP scan found 59 devices","timestamp":"01:03:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:09 +0000] \"GET /api/alerts HTTP/1.1\" 200 39046 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:19"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:29 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:29"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:39 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:39"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:33:49 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:03:49"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:04:00"}
+{"level":"info","message":"ARP scan found 59 devices","timestamp":"01:04:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:34:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:04:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:34:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:04:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:34:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:04:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:34:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:04:09"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:05:00"}
+{"level":"info","message":"ARP scan found 59 devices","timestamp":"01:05:00"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:35:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:05:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:35:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:05:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:35:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:05:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:35:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:05:09"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:06:00"}
+{"level":"info","message":"ARP scan found 59 devices","timestamp":"01:06:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:23 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:23"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:29 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:29"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:06:34"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:39 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:39"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:49 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:49"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:36:59 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:06:59"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:07:00"}
+{"level":"info","message":"ARP scan found 60 devices","timestamp":"01:07:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:07:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:07:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:07:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:07:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:19 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:07:19"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:07:21"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:07:21"}
+{"level":"info","message":"Database initialized","timestamp":"01:07:21"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:07:21"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:07:21"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:07:21"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:07:22"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:07:22"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:07:22"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:07:22"}
+{"level":"info","message":"Black Codex Backend (HTTP) running on port 3001","timestamp":"01:07:22"}
+{"level":"info","message":"Environment: development","timestamp":"01:07:22"}
+{"level":"warn","message":"SSL cert/key not provided — running without TLS","timestamp":"01:07:22"}
+{"level":"info","message":"WebSocket client connected: 080b96eb-6dc7-4d10-bbbd-f5106c31596f","timestamp":"01:07:22"}
+{"level":"info","message":"WebSocket client 080b96eb-6dc7-4d10-bbbd-f5106c31596f authenticated in dev mode","timestamp":"01:07:22"}
+{"level":"info","message":"Client 080b96eb-6dc7-4d10-bbbd-f5106c31596f subscribed to devices","timestamp":"01:07:22"}
+{"level":"info","message":"Client 080b96eb-6dc7-4d10-bbbd-f5106c31596f subscribed to alerts","timestamp":"01:07:22"}
+{"level":"info","message":"Client 080b96eb-6dc7-4d10-bbbd-f5106c31596f subscribed to scan","timestamp":"01:07:22"}
+{"level":"info","message":"ARP scan found 59 devices","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Discovered 42 devices via ARP","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.112 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.126 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.129 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.165 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.166 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.193 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.216 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.218 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.233 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:07:22"}
+{"level":"info","message":"[InitialScan] Complete: 42 real devices added to database","timestamp":"01:07:22"}
+{"level":"info","message":"Initial scan complete: Found 42 real devices","timestamp":"01:07:22"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:07:32"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:07:32"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:07:32"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:07:32"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:37:33 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 200 387 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:07:33"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:07:36"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:07:36"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:07:36"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:08:00"}
+{"level":"info","message":"ARP scan found 60 devices","timestamp":"01:08:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:38:03 +0000] \"GET /api/alerts HTTP/1.1\" 200 16985 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:08:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:38:09 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:08:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:38:09 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:08:09"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:38:09 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:08:09"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:09:00"}
+{"level":"info","message":"ARP scan found 60 devices","timestamp":"01:09:01"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:39:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:09:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:39:07 +0000] \"GET /api/security/score HTTP/1.1\" 200 788 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:09:07"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:39:19 +0000] \"GET /api/security/score HTTP/1.1\" 200 788 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:09:19"}
+{"level":"info","message":"[RefreshDevices] Starting network refresh...","timestamp":"01:10:00"}
+{"level":"info","message":"ARP scan found 60 devices","timestamp":"01:10:00"}
+{"level":"warn","message":"[Email] nodemailer not installed - emails will be logged only","timestamp":"01:10:02"}
+{"level":"info","message":"Database initialization complete","timestamp":"01:10:02"}
+{"level":"info","message":"Database initialized","timestamp":"01:10:02"}
+{"level":"info","message":"Starting initial network scan...","timestamp":"01:10:02"}
+{"level":"info","message":"[InitialScan] Starting real network discovery...","timestamp":"01:10:02"}
+{"level":"info","message":"[InitialScan] Cleared old data","timestamp":"01:10:02"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:10:03"}
+{"level":"info","message":"WebSocket server initialized","timestamp":"01:10:03"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:10:03"}
+{"level":"info","message":"Scheduled tasks started","timestamp":"01:10:03"}
+{"level":"info","message":"Black Codex Backend (HTTP) running on port 3001","timestamp":"01:10:03"}
+{"level":"info","message":"Environment: development","timestamp":"01:10:03"}
+{"level":"warn","message":"SSL cert/key not provided — running without TLS","timestamp":"01:10:03"}
+{"level":"info","message":"WebSocket client connected: 2a053d1e-168e-4091-8ccf-6b5ea49a7f14","timestamp":"01:10:03"}
+{"level":"info","message":"WebSocket client 2a053d1e-168e-4091-8ccf-6b5ea49a7f14 authenticated in dev mode","timestamp":"01:10:03"}
+{"level":"info","message":"Client 2a053d1e-168e-4091-8ccf-6b5ea49a7f14 subscribed to devices","timestamp":"01:10:03"}
+{"level":"info","message":"Client 2a053d1e-168e-4091-8ccf-6b5ea49a7f14 subscribed to alerts","timestamp":"01:10:03"}
+{"level":"info","message":"Client 2a053d1e-168e-4091-8ccf-6b5ea49a7f14 subscribed to scan","timestamp":"01:10:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:03 +0000] \"GET /api/alerts HTTP/1.1\" 200 61 \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:10:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:03 +0000] \"GET /api/scan/security/score HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:10:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:03 +0000] \"GET /api/threats/stats/summary HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:10:03"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:03 +0000] \"GET /api/alerts HTTP/1.1\" 304 - \"http://localhost:8080/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","timestamp":"01:10:03"}
+{"level":"info","message":"ARP scan found 60 devices","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Discovered 43 devices via ARP","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.1 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.105 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.112 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.113 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.122 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.126 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.129 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.134 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.138 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.153 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.164 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.165 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.166 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.176 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.179 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.180 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.181 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.187 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.188 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.189 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.193 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.195 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.196 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.199 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.216 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.217 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.218 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.225 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.226 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.227 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.228 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.229 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.230 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.232 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.233 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.234 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.237 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.238 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.239 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.244 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.245 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.246 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Added device: 192.168.0.247 (Unknown Vendor)","timestamp":"01:10:03"}
+{"level":"info","message":"[InitialScan] Complete: 43 real devices added to database","timestamp":"01:10:03"}
+{"level":"info","message":"Initial scan complete: Found 43 real devices","timestamp":"01:10:03"}
+{"level":"info","message":"Performing startup threat feed update...","timestamp":"01:10:13"}
+{"level":"info","message":"[ThreatFeed] Fetching recent threats from URLhaus...","timestamp":"01:10:13"}
+{"level":"error","message":"[ThreatFeed] Failed to fetch threats: API Error: 401","timestamp":"01:10:14"}
+{"level":"info","message":"[ThreatFeed] Fetching CISA Known Exploited Vulnerabilities...","timestamp":"01:10:14"}
+{"level":"info","message":"[ThreatFeed] Retrieved 1529 CISA records","timestamp":"01:10:14"}
+{"level":"info","message":"Database saved to disk","timestamp":"01:10:14"}
+{"level":"info","message":"[ThreatFeed] Added 0 CISA exploits","timestamp":"01:10:14"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:16 +0000] \"GET /api/security/score HTTP/1.1\" 200 594 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:10:16"}
+{"level":"info","message":"::1 - - [02/Mar/2026:19:40:31 +0000] \"GET /api/devices/stats/summary HTTP/1.1\" 200 387 \"-\" \"node-fetch/1.0 (+https://github.com/bitinn/node-fetch)\"","timestamp":"01:10:31"}

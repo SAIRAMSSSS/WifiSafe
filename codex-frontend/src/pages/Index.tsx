@@ -207,7 +207,7 @@ const Index = () => {
             </div>
 
             <div className="flex-shrink-0">
-              <SecurityGauge score={stats.securityScore || 100} size={220} />
+              <SecurityGauge score={stats.securityScore ?? 0} size={220} />
             </div>
           </div>
         </div>

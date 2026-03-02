@@ -34,7 +34,6 @@ function calculateSecurityScore(db) {
       };
     }
 
-    // Get all devices from the latest scan
     const devices = db.prepare('SELECT * FROM devices').all();
     const totalDevices = devices.length;
 
@@ -49,57 +48,59 @@ function calculateSecurityScore(db) {
       };
     }
 
-    // Get vulnerabilities
+    // Get counts
     const vulns = db.prepare('SELECT severity FROM vulnerabilities').all();
     const criticalVulns = vulns.filter(v => v.severity === 'critical').length;
     const highVulns = vulns.filter(v => v.severity === 'high').length;
     const mediumVulns = vulns.filter(v => v.severity === 'medium').length;
     const lowVulns = vulns.filter(v => v.severity === 'low').length;
 
-    // Get alerts
     const alerts = db.prepare("SELECT severity FROM alerts WHERE acknowledged = 0").all();
     const criticalAlerts = alerts.filter(a => a.severity === 'critical').length;
     const highAlerts = alerts.filter(a => a.severity === 'high').length;
     const mediumAlerts = alerts.filter(a => a.severity === 'medium').length;
     const lowAlerts = alerts.filter(a => a.severity === 'low').length;
 
-    // Get device risk levels
     const criticalDevices = devices.filter(d => d.risk_level === 'critical').length;
     const highRiskDevices = devices.filter(d => d.risk_level === 'high').length;
     const mediumRiskDevices = devices.filter(d => d.risk_level === 'medium').length;
     const lowRiskDevices = devices.filter(d => d.risk_level === 'low').length;
 
-    // Calculate score using new formula
-    // Start from 100, subtract based on risk levels
+    // -----------------------------------------------------------
+    // NETWORK-AWARE SCORING
+    // Uses percentage of affected devices so score doesn't tank
+    // just because the network has many devices.
+    // -----------------------------------------------------------
     let score = 100;
 
-    // Vulnerability deductions
-    const criticalVulnDeduction = criticalVulns * 20;
-    const highVulnDeduction = highVulns * 10;
-    const mediumVulnDeduction = mediumVulns * 5;
-    const lowVulnDeduction = lowVulns * 2;
+    // --- Device risk deductions (percentage-based, max 40 pts) ---
+    const critPct = totalDevices > 0 ? criticalDevices / totalDevices : 0;
+    const highPct = totalDevices > 0 ? highRiskDevices / totalDevices : 0;
+    const medPct = totalDevices > 0 ? mediumRiskDevices / totalDevices : 0;
+    score -= Math.min(40, (critPct * 40) + (highPct * 25) + (medPct * 10));
 
-    // Alert deductions
-    const criticalAlertDeduction = criticalAlerts * 20;
-    const highAlertDeduction = highAlerts * 10;
-    const mediumAlertDeduction = mediumAlerts * 5;
-    const lowAlertDeduction = lowAlerts * 2;
+    // --- Vulnerability deductions (capped, max 30 pts) ---
+    const vulnPenalty = Math.min(30,
+      (criticalVulns * 8) + (highVulns * 4) + (mediumVulns * 2) + (lowVulns * 0.5)
+    );
+    score -= vulnPenalty;
 
-    // Device risk deductions
-    const criticalDeviceDeduction = criticalDevices * 20;
-    const highDeviceDeduction = highRiskDevices * 10;
-    const mediumDeviceDeduction = mediumRiskDevices * 5;
-    const lowDeviceDeduction = lowRiskDevices * 2;
+    // --- Alert deductions (capped, max 20 pts) ---
+    const alertPenalty = Math.min(20,
+      (criticalAlerts * 5) + (highAlerts * 3) + (mediumAlerts * 1) + (lowAlerts * 0.5)
+    );
+    score -= alertPenalty;
 
-    // Apply deductions
-    score -= criticalVulnDeduction + highVulnDeduction + mediumVulnDeduction + lowVulnDeduction;
-    score -= criticalAlertDeduction + highAlertDeduction + mediumAlertDeduction + lowAlertDeduction;
-    score -= criticalDeviceDeduction + highDeviceDeduction + mediumDeviceDeduction + lowDeviceDeduction;
+    // --- Risky open ports: bonus penalty (max 10 pts) ---
+    const riskyPortCount = db.prepare(
+      "SELECT COUNT(*) as count FROM ports WHERE port_number IN (23, 21, 135, 139, 445, 3389, 7547, 1883, 554, 37777, 34567) AND status = 'open'"
+    ).get().count;
+    score -= Math.min(10, riskyPortCount * 2);
 
     // Ensure score is between 0 and 100
-    score = Math.max(0, Math.min(100, score));
+    score = Math.max(0, Math.min(100, Math.round(score)));
 
-    // Calculate grade
+    // Grade
     let grade = 'F';
     if (score >= 90) grade = 'A';
     else if (score >= 80) grade = 'B';
@@ -107,7 +108,7 @@ function calculateSecurityScore(db) {
     else if (score >= 60) grade = 'D';
 
     return {
-      score: Math.round(score),
+      score,
       grade,
       status: 'scan_complete',
       message: `Security score based on ${totalDevices} devices`,
@@ -115,32 +116,16 @@ function calculateSecurityScore(db) {
       lastScanTime: lastScan.end_time,
       factors: {
         totalDevices,
-        criticalVulns,
-        highVulns,
-        mediumVulns,
-        lowVulns,
-        criticalAlerts,
-        highAlerts,
-        mediumAlerts,
-        lowAlerts,
-        criticalDevices,
-        highRiskDevices,
-        mediumRiskDevices,
-        lowRiskDevices
+        criticalVulns, highVulns, mediumVulns, lowVulns,
+        criticalAlerts, highAlerts, mediumAlerts, lowAlerts,
+        criticalDevices, highRiskDevices, mediumRiskDevices, lowRiskDevices,
+        riskyPortCount
       },
       breakdown: {
-        criticalVulnDeduction,
-        highVulnDeduction,
-        mediumVulnDeduction,
-        lowVulnDeduction,
-        criticalAlertDeduction,
-        highAlertDeduction,
-        mediumAlertDeduction,
-        lowAlertDeduction,
-        criticalDeviceDeduction,
-        highDeviceDeduction,
-        mediumDeviceDeduction,
-        lowDeviceDeduction
+        deviceRiskDeduction: Math.round(Math.min(40, (critPct * 40) + (highPct * 25) + (medPct * 10))),
+        vulnPenalty: Math.round(vulnPenalty),
+        alertPenalty: Math.round(alertPenalty),
+        riskyPortPenalty: Math.min(10, riskyPortCount * 2)
       }
     };
   } catch (error) {
@@ -272,3 +257,5 @@ router.get('/summary', optionalAuth, (req, res) => {
 });
 
 module.exports = router;
+module.exports.calculateSecurityScore = calculateSecurityScore;
+
